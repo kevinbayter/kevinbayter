@@ -1,4 +1,4 @@
-### Hi there 👋
+### __Hi there 👋__
 
 <!--
 **kevinbayter/kevinbayter** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,3 +14,13 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+# Full Stack Developer
+I'm Kevin Bayter, I have knowledge in JavaScript, Css, Sass, React, Vuej, Postgrest. every day I am looking to improve my skills and learn new technologies, I love programming
+I like science like astrophysics and mathematics, I love classical music like the songs of Luvin van Beethoven or Mozart.
+
+my favorite movie is `<interstellar`:)
+
+## I have knowledge in these languages
+* _Spanish:_ __Native__
+* _English:_ __B2__
+* _Portugues:_ __C1__
