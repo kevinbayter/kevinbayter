@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Kevin Bayter</h1>
-<h3 align="center">A passionate frontend developer from Colombia</h3>
+<h3 align="center">A passionate Full Stack developer from Colombia</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=kevinbayter&label=Profile%20views&color=0e75b6&style=flat" alt="kevinbayter" /> </p>
 
@@ -19,9 +19,7 @@
 
 - 💬 Ask me about **JavaScript**
 
-- 📫 How to reach me **https://www.linkedin.com/in/bcod3r/**
-
-- 📄 Know about my experiences [https://bcod3rcv.netlify.app/](https://bcod3rcv.netlify.app/)
+- 📄 Know about my experiences [Personal Web Side](https://bcod3rcv.netlify.app/)
 
 - ⚡ Fun fact **Books, Music**
 
