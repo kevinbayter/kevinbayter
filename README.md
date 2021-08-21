@@ -7,7 +7,7 @@
 
 <p align="left"> <a href="https://twitter.com/bcod3r" target="blank"><img src="https://img.shields.io/twitter/follow/bcod3r?logo=twitter&style=for-the-badge" alt="bcod3r" /></a> </p>
 
-- 🌱 I’m currently learning **React, vue,Node**
+- 🌱 I’m currently learning **React, Vue, Node**
 
 - 👯 I’m looking to collaborate for my BackEnd contact form on [portfolio](https://github.com/kevinbayter/portfolio)
 
