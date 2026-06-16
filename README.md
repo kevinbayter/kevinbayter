@@ -13,7 +13,7 @@
 
 - 🤝 I’m looking for help with [VirtualStore](https://github.com/kevinbayter/VirtualStore)
 
-- 👨‍💻 All of my projects are available at [https://bcod3rcv.netlify.app/](https://bcod3rcv.netlify.app/)
+- 👨‍💻 All of my projects are available at [https://bayterx.com/](https://bayterx.com)
 
 - 📝 Contact me here [t.me/BayterC](t.me/BayterC)
 
