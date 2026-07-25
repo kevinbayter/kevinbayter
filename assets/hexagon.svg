@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520" role="img" aria-label="Hexagonal architecture with layer boundaries enforced automatically by lint rules and architecture tests">
+  <title>Architecture that cannot rot</title>
+
+  <defs>
+    <linearGradient id="xBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0A1524"/>
+    </linearGradient>
+    <radialGradient id="xCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#34D399" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="xGlow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="xClip"><rect width="1200" height="520" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#xClip)">
+    <rect width="1200" height="520" fill="url(#xBg)"/>
+    <rect x="0.5" y="0.5" width="1199" height="519" rx="18" fill="none" stroke="#1E293B"/>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+      <circle cx="40" cy="42" r="5" fill="#F87171"/>
+      <circle cx="58" cy="42" r="5" fill="#FBBF24"/>
+      <circle cx="76" cy="42" r="5" fill="#34D399"/>
+      <text x="98" y="47" font-size="14" fill="#64748B">architecture &#8212; enforced, not documented</text>
+      <text x="36" y="90" font-size="22" font-weight="700" fill="#E2E8F0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">Boundaries a rushed pull request cannot cross</text>
+      <text x="36" y="114" font-size="13" fill="#64748B">the same hexagonal contract in both platforms &#183; verified on every commit, in CI</text>
+    </g>
+
+    <!-- ambient core light -->
+    <circle cx="300" cy="300" r="150" fill="url(#xCore)">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="4s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- outer hex: adapters -->
+    <polygon points="450,300 375,429.9 225,429.9 150,300 225,170.1 375,170.1" fill="none" stroke="#1E3A8A" stroke-width="1.6"/>
+    <polygon points="450,300 375,429.9 225,429.9 150,300 225,170.1 375,170.1" fill="none" stroke="#3B82F6" stroke-width="1.6" stroke-dasharray="14 500" opacity="0.9">
+      <animate attributeName="stroke-dashoffset" values="0;-857" dur="9s" repeatCount="indefinite"/>
+    </polygon>
+
+    <!-- middle hex: ports -->
+    <polygon points="400,300 350,386.6 250,386.6 200,300 250,213.4 350,213.4" fill="none" stroke="#155E75" stroke-width="1.6"/>
+    <polygon points="400,300 350,386.6 250,386.6 200,300 250,213.4 350,213.4" fill="none" stroke="#22D3EE" stroke-width="1.6" stroke-dasharray="10 330" opacity="0.9">
+      <animate attributeName="stroke-dashoffset" values="0;-600" dur="7s" repeatCount="indefinite"/>
+    </polygon>
+
+    <!-- inner hex: domain -->
+    <polygon points="352,300 326,345 274,345 248,300 274,255 326,255" fill="#0F172A" stroke="#34D399" stroke-width="1.8"/>
+    <circle cx="300" cy="300" r="52" fill="none" stroke="#34D399" stroke-width="1.4" opacity="0.6">
+      <animate attributeName="r" values="52;96" dur="3.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" text-anchor="middle">
+      <text x="300" y="296" font-size="12" font-weight="600" fill="#A7F3D0">domain</text>
+      <text x="300" y="312" font-size="9.5" fill="#4ADE80">pure &#183; 0 deps</text>
+      <text x="300" y="238" font-size="10" fill="#22D3EE">ports</text>
+      <text x="300" y="196" font-size="10" fill="#60A5FA">adapters</text>
+    </g>
+
+    <!-- adapter chips around the hexagon -->
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" text-anchor="middle">
+      <g>
+        <rect x="425" y="288" width="118" height="24" rx="12" fill="#0F172A" stroke="#1E3A8A"/>
+        <text x="484" y="304" fill="#93C5FD">LLM provider</text>
+        <animate attributeName="opacity" values="0.55;1;0.55" dur="5s" repeatCount="indefinite"/>
+      </g>
+      <g>
+        <rect x="336" y="448" width="118" height="24" rx="12" fill="#0F172A" stroke="#1E3A8A"/>
+        <text x="395" y="464" fill="#93C5FD">Postgres</text>
+        <animate attributeName="opacity" values="0.55;1;0.55" dur="5s" begin="0.8s" repeatCount="indefinite"/>
+      </g>
+      <g>
+        <rect x="149" y="448" width="118" height="24" rx="12" fill="#0F172A" stroke="#1E3A8A"/>
+        <text x="208" y="464" fill="#93C5FD">headless browser</text>
+        <animate attributeName="opacity" values="0.55;1;0.55" dur="5s" begin="1.6s" repeatCount="indefinite"/>
+      </g>
+      <g>
+        <rect x="57" y="288" width="118" height="24" rx="12" fill="#0F172A" stroke="#1E3A8A"/>
+        <text x="116" y="304" fill="#93C5FD">Kubernetes</text>
+        <animate attributeName="opacity" values="0.55;1;0.55" dur="5s" begin="2.4s" repeatCount="indefinite"/>
+      </g>
+      <g>
+        <rect x="149" y="128" width="118" height="24" rx="12" fill="#0F172A" stroke="#1E3A8A"/>
+        <text x="208" y="144" fill="#93C5FD">CI / VCS API</text>
+        <animate attributeName="opacity" values="0.55;1;0.55" dur="5s" begin="3.2s" repeatCount="indefinite"/>
+      </g>
+      <g>
+        <rect x="336" y="128" width="118" height="24" rx="12" fill="#0F172A" stroke="#1E3A8A"/>
+        <text x="395" y="144" fill="#93C5FD">metrics / logs</text>
+        <animate attributeName="opacity" values="0.55;1;0.55" dur="5s" begin="4s" repeatCount="indefinite"/>
+      </g>
+    </g>
+
+    <!-- inbound dependency arrows (adapters point INTO the core) -->
+    <g stroke="#22D3EE" stroke-width="1.2" opacity="0.5" fill="none">
+      <path d="M425 300 L400 300"/>
+      <path d="M382 440 L350 386"/>
+      <path d="M218 440 L250 386"/>
+      <path d="M175 300 L200 300"/>
+      <path d="M218 160 L250 213"/>
+      <path d="M382 160 L350 213"/>
+    </g>
+    <g fill="#22D3EE">
+      <circle r="2.6"><animateMotion dur="2.6s" repeatCount="indefinite" path="M425 300 L360 300"/></circle>
+      <circle r="2.6"><animateMotion dur="2.6s" begin="0.9s" repeatCount="indefinite" path="M175 300 L245 300"/></circle>
+      <circle r="2.6"><animateMotion dur="2.6s" begin="1.7s" repeatCount="indefinite" path="M382 440 L330 340"/></circle>
+    </g>
+
+    <!-- ============ right panel: the enforcement ============ -->
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+      <rect x="620" y="140" width="544" height="340" rx="12" fill="#0B1120" stroke="#1E293B"/>
+      <text x="644" y="168" font-size="10.5" fill="#475569">DEPENDENCY DIRECTION &#183; CHECKED IN CI</text>
+
+      <!-- allowed -->
+      <g>
+        <rect x="644" y="186" width="496" height="46" rx="8" fill="#0F172A" stroke="#065F46"/>
+        <circle cx="668" cy="209" r="9" fill="none" stroke="#34D399" stroke-width="1.6"/>
+        <path d="M663 209 L667 213 L674 204" fill="none" stroke="#34D399" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="690" y="206" font-size="11.5" fill="#CBD5E1">adapters &#8594; ports &#8594; domain</text>
+        <text x="690" y="223" font-size="10" fill="#64748B">the only direction anything is allowed to point</text>
+      </g>
+
+      <!-- blocked -->
+      <g>
+        <rect x="644" y="244" width="496" height="46" rx="8" fill="#0F172A" stroke="#7F1D1D"/>
+        <rect x="644" y="244" width="496" height="46" rx="8" fill="none" stroke="#F87171" opacity="0">
+          <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.12;0.3;1" dur="5s" repeatCount="indefinite"/>
+        </rect>
+        <circle cx="668" cy="267" r="9" fill="none" stroke="#F87171" stroke-width="1.6"/>
+        <path d="M664 263 L672 271 M672 263 L664 271" stroke="#F87171" stroke-width="1.8" stroke-linecap="round"/>
+        <text x="690" y="264" font-size="11.5" fill="#CBD5E1">domain &#8594; adapters</text>
+        <text x="690" y="281" font-size="10" fill="#64748B">rejected by lint and by a test that reads the real imports</text>
+      </g>
+
+      <!-- terminal output -->
+      <rect x="644" y="304" width="496" height="152" rx="8" fill="#020617" stroke="#1E293B"/>
+      <g font-size="10.5">
+        <text x="662" y="328" fill="#475569">$ pnpm test:architecture</text>
+        <text x="662" y="350" fill="#94A3B8" opacity="0">
+          scanning real import graph&#8230;
+          <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.14;1" dur="7s" repeatCount="indefinite"/>
+        </text>
+        <text x="662" y="372" fill="#34D399" opacity="0">
+          &#10003; domain imports nothing outside itself
+          <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.28;0.34;1" dur="7s" repeatCount="indefinite"/>
+        </text>
+        <text x="662" y="394" fill="#34D399" opacity="0">
+          &#10003; use cases depend on ports, never on implementations
+          <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.46;0.52;1" dur="7s" repeatCount="indefinite"/>
+        </text>
+        <text x="662" y="416" fill="#34D399" opacity="0">
+          &#10003; controllers never reach the database directly
+          <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.64;0.7;1" dur="7s" repeatCount="indefinite"/>
+        </text>
+        <text x="662" y="440" fill="#FDE68A" opacity="0">
+          layers verified &#183; 200+ automated tests green &#183; merge unblocked
+          <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.84;0.9;1" dur="7s" repeatCount="indefinite"/>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
