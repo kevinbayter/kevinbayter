@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520" role="img" aria-label="El stack de ingenier&#237;a de IA con el que construyo: modelos, orquestaci&#243;n, herramientas, guardrails, evaluaci&#243;n y observabilidad">
+  <title>El stack de ingenier&#237;a de IA con el que construyo</title>
+
+  <defs>
+    <linearGradient id="sBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0A1524"/>
+    </linearGradient>
+    <linearGradient id="sScan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="sGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="sClip"><rect width="1200" height="520" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#sClip)">
+    <rect width="1200" height="520" fill="url(#sBg)"/>
+    <rect x="0.5" y="0.5" width="1199" height="519" rx="18" fill="none" stroke="#1E293B"/>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+      <circle cx="40" cy="42" r="5" fill="#F87171"/>
+      <circle cx="58" cy="42" r="5" fill="#FBBF24"/>
+      <circle cx="76" cy="42" r="5" fill="#34D399"/>
+      <text x="98" y="47" font-size="14" fill="#64748B">ai engineering &#8212; la parte que sobrevive a producci&#243;n</text>
+      <text x="36" y="90" font-size="22" font-weight="700" fill="#E2E8F0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">Un demo es un prompt. Un producto es todo lo de abajo.</text>
+      <text x="36" y="114" font-size="13" fill="#64748B">el modelo es una capa &#8212; las otras cinco son por qu&#233; se le puede confiar algo real</text>
+    </g>
+
+    <!-- ============ layer cake ============ -->
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+      <g>
+        <rect x="36" y="150" width="544" height="46" rx="9" fill="#0F172A" stroke="#1E3A8A"/>
+        <rect x="36" y="150" width="544" height="46" rx="9" fill="none" stroke="#60A5FA" opacity="0">
+          <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.06;0.15;1" dur="10s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="36" y="150" width="5" height="46" rx="2.5" fill="#3B82F6"/>
+        <text x="58" y="172" font-size="12.5" font-weight="600" fill="#E2E8F0">Modelos</text>
+        <text x="58" y="188" font-size="10.5" fill="#64748B">varios proveedores tras un puerto &#183; failover incluido &#183; modelo = config</text>
+      </g>
+      <g>
+        <rect x="36" y="204" width="544" height="46" rx="9" fill="#0F172A" stroke="#155E75"/>
+        <rect x="36" y="204" width="544" height="46" rx="9" fill="none" stroke="#22D3EE" opacity="0">
+          <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.16;0.22;0.31;1" dur="10s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="36" y="204" width="5" height="46" rx="2.5" fill="#22D3EE"/>
+        <text x="58" y="226" font-size="12.5" font-weight="600" fill="#E2E8F0">Orquestaci&#243;n</text>
+        <text x="58" y="242" font-size="10.5" fill="#64748B">loop acotado &#183; planeaci&#243;n &#183; streaming &#183; recuperaci&#243;n de fallos</text>
+      </g>
+      <g>
+        <rect x="36" y="258" width="544" height="46" rx="9" fill="#0F172A" stroke="#4C1D95"/>
+        <rect x="36" y="258" width="544" height="46" rx="9" fill="none" stroke="#A78BFA" opacity="0">
+          <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.32;0.38;0.47;1" dur="10s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="36" y="258" width="5" height="46" rx="2.5" fill="#A78BFA"/>
+        <text x="58" y="280" font-size="12.5" font-weight="600" fill="#E2E8F0">Herramientas y contexto</text>
+        <text x="58" y="296" font-size="10.5" fill="#64748B">contratos tipados &#183; servidores MCP &#183; retrieval &#183; memoria operativa</text>
+      </g>
+      <g>
+        <rect x="36" y="312" width="544" height="46" rx="9" fill="#0F172A" stroke="#92400E"/>
+        <rect x="36" y="312" width="544" height="46" rx="9" fill="none" stroke="#FBBF24" opacity="0">
+          <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.48;0.54;0.63;1" dur="10s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="36" y="312" width="5" height="46" rx="2.5" fill="#FBBF24"/>
+        <text x="58" y="334" font-size="12.5" font-weight="600" fill="#E2E8F0">Guardrails</text>
+        <text x="58" y="350" font-size="10.5" fill="#64748B">clases de riesgo &#183; aprobaciones &#183; redacci&#243;n &#183; listas de bloqueo</text>
+      </g>
+      <g>
+        <rect x="36" y="366" width="544" height="46" rx="9" fill="#0F172A" stroke="#065F46"/>
+        <rect x="36" y="366" width="544" height="46" rx="9" fill="none" stroke="#34D399" opacity="0">
+          <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.64;0.70;0.79;1" dur="10s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="36" y="366" width="5" height="46" rx="2.5" fill="#34D399"/>
+        <text x="58" y="388" font-size="12.5" font-weight="600" fill="#E2E8F0">Evaluaci&#243;n</text>
+        <text x="58" y="404" font-size="10.5" fill="#64748B">casos dorados &#183; n&#250;cleos deterministas &#183; regresi&#243;n en el CI</text>
+      </g>
+      <g>
+        <rect x="36" y="420" width="544" height="46" rx="9" fill="#0F172A" stroke="#334155"/>
+        <rect x="36" y="420" width="544" height="46" rx="9" fill="none" stroke="#94A3B8" opacity="0">
+          <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.80;0.86;0.95;1" dur="10s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="36" y="420" width="5" height="46" rx="2.5" fill="#94A3B8"/>
+        <text x="58" y="442" font-size="12.5" font-weight="600" fill="#E2E8F0">Observabilidad</text>
+        <text x="58" y="458" font-size="10.5" fill="#64748B">cada llamada trazada &#183; auditor&#237;a por acci&#243;n &#183; latencia y costo</text>
+      </g>
+
+      <!-- scanning highlight across the stack -->
+      <rect x="36" y="150" width="544" height="46" rx="9" fill="url(#sScan)">
+        <animate attributeName="y" values="150;204;258;312;366;420;150" keyTimes="0;0.16;0.32;0.48;0.64;0.8;1" dur="10s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- ============ right panel ============ -->
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+      <rect x="620" y="150" width="544" height="316" rx="12" fill="#0B1120" stroke="#1E293B"/>
+      <text x="644" y="178" font-size="10.5" fill="#475569">C&#211;MO PIENSO EL DESPLIEGUE DE IA</text>
+
+      <g font-size="11.5">
+        <g>
+          <circle cx="652" cy="208" r="3.5" fill="#60A5FA" filter="url(#sGlow)"/>
+          <text x="670" y="212" fill="#CBD5E1">Deja al modelo lo que solo un modelo puede hacer.</text>
+          <text x="670" y="230" font-size="10.5" fill="#64748B">leer input desordenado, proponer un plan, explicar una falla</text>
+        </g>
+        <g>
+          <circle cx="652" cy="264" r="3.5" fill="#22D3EE" filter="url(#sGlow)"/>
+          <text x="670" y="268" fill="#CBD5E1">Mant&#233;n lo irreversible en c&#243;digo plano.</text>
+          <text x="670" y="286" font-size="10.5" fill="#64748B">dinero, escrituras de infraestructura y c&#225;lculo legal, deterministas</text>
+        </g>
+        <g>
+          <circle cx="652" cy="320" r="3.5" fill="#FBBF24" filter="url(#sGlow)"/>
+          <text x="670" y="324" fill="#CBD5E1">Asume que el modelo se equivocar&#225; alg&#250;n d&#237;a.</text>
+          <text x="670" y="342" font-size="10.5" fill="#64748B">dise&#241;a el radio de impacto antes que el prompt</text>
+        </g>
+        <g>
+          <circle cx="652" cy="376" r="3.5" fill="#A78BFA" filter="url(#sGlow)"/>
+          <text x="670" y="380" fill="#CBD5E1">Muestra el trabajo mientras ocurre.</text>
+          <text x="670" y="398" font-size="10.5" fill="#64748B">razonamiento y pasos en vivo ganan a un p&#225;rrafo seguro</text>
+        </g>
+        <g>
+          <circle cx="652" cy="432" r="3.5" fill="#34D399" filter="url(#sGlow)"/>
+          <text x="670" y="436" fill="#CBD5E1">M&#237;delo como cualquier otro sistema.</text>
+          <text x="670" y="454" font-size="10.5" fill="#64748B">si no puedes trazarlo ni testearlo, no est&#225; en producci&#243;n</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

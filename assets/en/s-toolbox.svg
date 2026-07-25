@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 630" width="1000" height="630" role="img" aria-label="Languages: Java, Go, TypeScript, Kotlin, Python, SQL. Backend: Spring Boot, WebFlux, Node.js, Bun, Kafka, GraphQL, REST &#183; microservices. AI engineering: MCP, Agentic orchestration, Retrieval, Guardrails &amp; evals, Claude, OpenAI, Gemini, Kimi. Cloud &amp; platform: Kubernetes, Docker, AWS, GCP, Azure, Terraform, GitLab CI, ArgoCD, APISIX. Data: PostgreSQL, Oracle, MySQL, MongoDB, Redis. Observability &amp; security: Grafana, Prometheus, Loki, Datadog, New Relic, Opsgenie, OWASP. Quality: JUnit, Jest, Vitest, Playwright, Selenium, Static analysis">
+  <title>What I reach for</title>
+  <defs>
+    <linearGradient id="tbBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0A1524"/>
+    </linearGradient>
+    <radialGradient id="tbGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="tbClip"><rect width="1000" height="630" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#tbClip)">
+    <rect width="1000" height="630" fill="url(#tbBg)"/>
+    <ellipse cx="780" cy="-40" rx="420" ry="220" fill="url(#tbGlow)">
+      <animate attributeName="cx" values="780;500;780" dur="19s" repeatCount="indefinite"/>
+    </ellipse>
+<text x="40" y="56" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#22D3EE" letter-spacing="1.6">TOOLBOX</text>
+<text x="40" y="96" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="30" fill="#E2E8F0" font-weight="700">What I reach for</text>
+<rect x="40" y="108" width="269.6" height="3" rx="1.5" fill="#22D3EE" opacity="0.85"><animate attributeName="width" values="0;269.6" dur="1.1s" fill="freeze"/></rect>
+<text x="40" y="171" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#38BDF8" font-weight="600">Languages</text>
+<rect x="250" y="152" width="75.2" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="268" cy="166" r="3.5" fill="#38BDF8"/>
+<text x="280" y="170.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">Java</text>
+<rect x="335.2" y="152" width="59.6" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="353.2" cy="166" r="3.5" fill="#38BDF8"/>
+<text x="365.2" y="170.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">Go</text>
+<rect x="404.8" y="152" width="122" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="422.8" cy="166" r="3.5" fill="#38BDF8"/>
+<text x="434.8" y="170.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">TypeScript</text>
+<rect x="536.8" y="152" width="90.8" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="554.8" cy="166" r="3.5" fill="#38BDF8"/>
+<text x="566.8" y="170.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">Kotlin</text>
+<rect x="637.6" y="152" width="90.8" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="655.6" cy="166" r="3.5" fill="#38BDF8"/>
+<text x="667.6" y="170.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">Python</text>
+<rect x="738.4" y="152" width="67.4" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="756.4" cy="166" r="3.5" fill="#38BDF8"/>
+<text x="768.4" y="170.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">SQL</text>
+<text x="40" y="215" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#22D3EE" font-weight="600">Backend</text>
+<rect x="250" y="196" width="129.8" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="268" cy="210" r="3.5" fill="#22D3EE"/>
+<text x="280" y="214.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">Spring Boot</text>
+<rect x="389.8" y="196" width="98.6" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="407.8" cy="210" r="3.5" fill="#22D3EE"/>
+<text x="419.8" y="214.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">WebFlux</text>
+<rect x="498.4" y="196" width="98.6" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="516.4" cy="210" r="3.5" fill="#22D3EE"/>
+<text x="528.4" y="214.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">Node.js</text>
+<rect x="607" y="196" width="67.4" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="625" cy="210" r="3.5" fill="#22D3EE"/>
+<text x="637" y="214.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">Bun</text>
+<rect x="684.4" y="196" width="83" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="702.4" cy="210" r="3.5" fill="#22D3EE"/>
+<text x="714.4" y="214.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">Kafka</text>
+<rect x="777.4" y="196" width="98.6" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="795.4" cy="210" r="3.5" fill="#22D3EE"/>
+<text x="807.4" y="214.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">GraphQL</text>
+<rect x="250" y="234" width="200" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="268" cy="248" r="3.5" fill="#22D3EE"/>
+<text x="280" y="252.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">REST &#183; microservices</text>
+<text x="40" y="297" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#A78BFA" font-weight="600">AI engineering</text>
+<rect x="250" y="278" width="67.4" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="268" cy="292" r="3.5" fill="#A78BFA"/>
+<text x="280" y="296.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">MCP</text>
+<rect x="327.4" y="278" width="207.8" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="345.4" cy="292" r="3.5" fill="#A78BFA"/>
+<text x="357.4" y="296.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">Agentic orchestration</text>
+<rect x="545.2" y="278" width="114.2" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="563.2" cy="292" r="3.5" fill="#A78BFA"/>
+<text x="575.2" y="296.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">Retrieval</text>
+<rect x="669.4" y="278" width="184.4" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="687.4" cy="292" r="3.5" fill="#A78BFA"/>
+<text x="699.4" y="296.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">Guardrails &amp; evals</text>
+<rect x="863.8" y="278" width="90.8" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="881.8" cy="292" r="3.5" fill="#A78BFA"/>
+<text x="893.8" y="296.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">Claude</text>
+<rect x="250" y="316" width="90.8" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="268" cy="330" r="3.5" fill="#A78BFA"/>
+<text x="280" y="334.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">OpenAI</text>
+<rect x="350.8" y="316" width="90.8" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="368.8" cy="330" r="3.5" fill="#A78BFA"/>
+<text x="380.8" y="334.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">Gemini</text>
+<rect x="451.6" y="316" width="75.2" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="469.6" cy="330" r="3.5" fill="#A78BFA"/>
+<text x="481.6" y="334.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">Kimi</text>
+<text x="40" y="379" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#34D399" font-weight="600">Cloud &amp; platform</text>
+<rect x="250" y="360" width="122" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="268" cy="374" r="3.5" fill="#34D399"/>
+<text x="280" y="378.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">Kubernetes</text>
+<rect x="382" y="360" width="90.8" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="400" cy="374" r="3.5" fill="#34D399"/>
+<text x="412" y="378.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">Docker</text>
+<rect x="482.8" y="360" width="67.4" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="500.8" cy="374" r="3.5" fill="#34D399"/>
+<text x="512.8" y="378.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">AWS</text>
+<rect x="560.2" y="360" width="67.4" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="578.2" cy="374" r="3.5" fill="#34D399"/>
+<text x="590.2" y="378.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">GCP</text>
+<rect x="637.6" y="360" width="83" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="655.6" cy="374" r="3.5" fill="#34D399"/>
+<text x="667.6" y="378.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">Azure</text>
+<rect x="730.6" y="360" width="114.2" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="748.6" cy="374" r="3.5" fill="#34D399"/>
+<text x="760.6" y="378.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">Terraform</text>
+<rect x="250" y="398" width="114.2" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="268" cy="412" r="3.5" fill="#34D399"/>
+<text x="280" y="416.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">GitLab CI</text>
+<rect x="374.2" y="398" width="90.8" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="392.2" cy="412" r="3.5" fill="#34D399"/>
+<text x="404.2" y="416.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">ArgoCD</text>
+<rect x="475" y="398" width="90.8" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="493" cy="412" r="3.5" fill="#34D399"/>
+<text x="505" y="416.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">APISIX</text>
+<text x="40" y="461" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#FBBF24" font-weight="600">Data</text>
+<rect x="250" y="442" width="122" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="268" cy="456" r="3.5" fill="#FBBF24"/>
+<text x="280" y="460.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">PostgreSQL</text>
+<rect x="382" y="442" width="90.8" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="400" cy="456" r="3.5" fill="#FBBF24"/>
+<text x="412" y="460.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">Oracle</text>
+<rect x="482.8" y="442" width="83" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="500.8" cy="456" r="3.5" fill="#FBBF24"/>
+<text x="512.8" y="460.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">MySQL</text>
+<rect x="575.8" y="442" width="98.6" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="593.8" cy="456" r="3.5" fill="#FBBF24"/>
+<text x="605.8" y="460.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">MongoDB</text>
+<rect x="684.4" y="442" width="83" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="702.4" cy="456" r="3.5" fill="#FBBF24"/>
+<text x="714.4" y="460.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">Redis</text>
+<text x="40" y="505" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#38BDF8" font-weight="600">Observability &amp; security</text>
+<rect x="250" y="486" width="98.6" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="268" cy="500" r="3.5" fill="#38BDF8"/>
+<text x="280" y="504.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">Grafana</text>
+<rect x="358.6" y="486" width="122" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="376.6" cy="500" r="3.5" fill="#38BDF8"/>
+<text x="388.6" y="504.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">Prometheus</text>
+<rect x="490.6" y="486" width="75.2" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="508.6" cy="500" r="3.5" fill="#38BDF8"/>
+<text x="520.6" y="504.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">Loki</text>
+<rect x="575.8" y="486" width="98.6" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="593.8" cy="500" r="3.5" fill="#38BDF8"/>
+<text x="605.8" y="504.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">Datadog</text>
+<rect x="684.4" y="486" width="114.2" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="702.4" cy="500" r="3.5" fill="#38BDF8"/>
+<text x="714.4" y="504.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">New Relic</text>
+<rect x="808.6" y="486" width="106.4" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="826.6" cy="500" r="3.5" fill="#38BDF8"/>
+<text x="838.6" y="504.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">Opsgenie</text>
+<rect x="250" y="524" width="83" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="268" cy="538" r="3.5" fill="#38BDF8"/>
+<text x="280" y="542.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">OWASP</text>
+<text x="40" y="587" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#22D3EE" font-weight="600">Quality</text>
+<rect x="250" y="568" width="83" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="268" cy="582" r="3.5" fill="#22D3EE"/>
+<text x="280" y="586.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">JUnit</text>
+<rect x="343" y="568" width="75.2" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="361" cy="582" r="3.5" fill="#22D3EE"/>
+<text x="373" y="586.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">Jest</text>
+<rect x="428.2" y="568" width="90.8" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="446.2" cy="582" r="3.5" fill="#22D3EE"/>
+<text x="458.2" y="586.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">Vitest</text>
+<rect x="529" y="568" width="122" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="547" cy="582" r="3.5" fill="#22D3EE"/>
+<text x="559" y="586.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">Playwright</text>
+<rect x="661" y="568" width="106.4" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="679" cy="582" r="3.5" fill="#22D3EE"/>
+<text x="691" y="586.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">Selenium</text>
+<rect x="777.4" y="568" width="161" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+<circle cx="795.4" cy="582" r="3.5" fill="#22D3EE"/>
+<text x="807.4" y="586.68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBD5E1">Static analysis</text>
+    <rect x="0.5" y="0.5" width="999" height="629" rx="16" fill="none" stroke="#1E293B"/>
+  </g>
+</svg>

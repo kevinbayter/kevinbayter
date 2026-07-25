@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 172 40" width="172" height="40" role="img" aria-label="Let's connect">
+  <title>Let's connect</title>
+<rect x="0.5" y="0.5" width="171" height="39" rx="20" fill="#2563EB" stroke="#2563EB"/>
+<circle cx="20" cy="20" r="4" fill="#FFFFFF" opacity="0.9"/>
+<text x="42" y="25.04" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#FFFFFF" font-weight="600">Let's connect</text>
+</svg>

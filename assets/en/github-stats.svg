@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 316" width="1000" height="316" role="img" aria-label="736 contributions, 40 public repositories, 18 followers">
+  <title>GitHub</title>
+  <defs>
+    <linearGradient id="gsBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0A1524"/>
+    </linearGradient>
+    <clipPath id="gsClip"><rect width="1000" height="316" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#gsClip)">
+    <rect width="1000" height="316" fill="url(#gsBg)"/>
+<rect x="40" y="32" width="219.5" height="112" rx="12" fill="#0F172A" stroke="#1E293B"/>
+<text x="58" y="82" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="34" fill="#38BDF8" font-weight="700">736</text>
+<text x="58" y="108" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#CBD5E1">total contributions</text>
+<text x="58" y="127" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#64748B">2020 &#8594;</text>
+<circle cx="237.5" cy="56" r="4" fill="#38BDF8" opacity="0.7"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.6s" begin="0s" repeatCount="indefinite"/></circle>
+<rect x="273.5" y="32" width="219.5" height="112" rx="12" fill="#0F172A" stroke="#1E293B"/>
+<text x="291.5" y="82" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="34" fill="#22D3EE" font-weight="700">133</text>
+<text x="291.5" y="108" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#CBD5E1">this year</text>
+<text x="291.5" y="127" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#64748B">2026</text>
+<circle cx="471" cy="56" r="4" fill="#22D3EE" opacity="0.7"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.6s" begin="0.3s" repeatCount="indefinite"/></circle>
+<rect x="507" y="32" width="219.5" height="112" rx="12" fill="#0F172A" stroke="#1E293B"/>
+<text x="525" y="82" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="34" fill="#A78BFA" font-weight="700">3</text>
+<text x="525" y="108" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#CBD5E1">current streak</text>
+<text x="525" y="127" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#64748B">days</text>
+<circle cx="704.5" cy="56" r="4" fill="#A78BFA" opacity="0.7"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.6s" begin="0.6s" repeatCount="indefinite"/></circle>
+<rect x="740.5" y="32" width="219.5" height="112" rx="12" fill="#0F172A" stroke="#1E293B"/>
+<text x="758.5" y="82" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="34" fill="#34D399" font-weight="700">4</text>
+<text x="758.5" y="108" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#CBD5E1">longest streak</text>
+<text x="758.5" y="127" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#64748B">days</text>
+<circle cx="938" cy="56" r="4" fill="#34D399" opacity="0.7"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.6s" begin="0.8999999999999999s" repeatCount="indefinite"/></circle>
+<text x="40" y="178" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#475569" letter-spacing="1.4">MOST USED LANGUAGES</text>
+<rect x="40" y="194" width="920" height="14" rx="7" fill="#111827"/>
+<rect x="40" y="194" width="360.52" height="14" fill="#3178c6" opacity="0.9"><animate attributeName="width" values="0;360.52" dur="1.1s" begin="0.2s" fill="freeze"/></rect>
+<rect x="400.52" y="194" width="176.51" height="14" fill="#e34c26" opacity="0.9"><animate attributeName="width" values="0;176.51" dur="1.1s" begin="0.32s" fill="freeze"/></rect>
+<rect x="577.03" y="194" width="163.41" height="14" fill="#f1e05a" opacity="0.9"><animate attributeName="width" values="0;163.41" dur="1.1s" begin="0.44s" fill="freeze"/></rect>
+<rect x="740.43" y="194" width="105.94" height="14" fill="#b07219" opacity="0.9"><animate attributeName="width" values="0;105.94" dur="1.1s" begin="0.56s" fill="freeze"/></rect>
+<rect x="846.38" y="194" width="58.17" height="14" fill="#663399" opacity="0.9"><animate attributeName="width" values="0;58.17" dur="1.1s" begin="0.6799999999999999s" fill="freeze"/></rect>
+<rect x="904.55" y="194" width="28.02" height="14" fill="#c6538c" opacity="0.9"><animate attributeName="width" values="0;28.02" dur="1.1s" begin="0.8s" fill="freeze"/></rect>
+<circle cx="46" cy="230" r="5" fill="#3178c6"/>
+<text x="58" y="234" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#94A3B8">TypeScript 39.2%</text>
+<circle cx="208" cy="230" r="5" fill="#e34c26"/>
+<text x="220" y="234" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#94A3B8">HTML 19.2%</text>
+<circle cx="325" cy="230" r="5" fill="#f1e05a"/>
+<text x="337" y="234" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#94A3B8">JavaScript 17.8%</text>
+<circle cx="487" cy="230" r="5" fill="#b07219"/>
+<text x="499" y="234" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#94A3B8">Java 11.5%</text>
+<circle cx="604" cy="230" r="5" fill="#663399"/>
+<text x="616" y="234" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#94A3B8">CSS 6.3%</text>
+<circle cx="706" cy="230" r="5" fill="#c6538c"/>
+<text x="718" y="234" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#94A3B8">SCSS 3.0%</text>
+<line x1="40" y1="264" x2="960" y2="264" stroke="#1E293B"/>
+<text x="40" y="290" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#E2E8F0" font-weight="600">40</text>
+<text x="68" y="290" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#64748B">public repos</text>
+<text x="191.6" y="290" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#E2E8F0" font-weight="600">2</text>
+<text x="210.6" y="290" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#64748B">stars earned</text>
+<text x="334.2" y="290" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#E2E8F0" font-weight="600">18</text>
+<text x="362.2" y="290" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#64748B">followers</text>
+<text x="462.4" y="290" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#E2E8F0" font-weight="600">54</text>
+<text x="490.4" y="290" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#64748B">busiest day</text>
+<text x="960" y="290" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#475569" text-anchor="end">updated 2026-07-25</text>
+    <rect x="0.5" y="0.5" width="999" height="315" rx="16" fill="none" stroke="#1E293B"/>
+  </g>
+</svg>

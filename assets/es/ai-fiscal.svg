@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 660" width="1200" height="660" role="img" aria-label="AI reads, code computes: dual-pass LLM extraction feeding a fully deterministic calculation engine">
-  <title>AI reads. Code computes.</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 660" width="1200" height="660" role="img" aria-label="La IA lee, el c&#243;digo calcula: extracci&#243;n de doble pasada con LLM alimentando un motor de c&#225;lculo totalmente determinista">
+  <title>La IA lee. El c&#243;digo calcula.</title>
 
   <defs>
     <linearGradient id="fBg" x1="0" y1="0" x2="1" y2="1">
@@ -30,13 +30,13 @@
       <circle cx="40" cy="42" r="5" fill="#F87171"/>
       <circle cx="58" cy="42" r="5" fill="#FBBF24"/>
       <circle cx="76" cy="42" r="5" fill="#34D399"/>
-      <text x="98" y="47" font-size="14" fill="#64748B">regulated-domain AI platform</text>
-      <text x="36" y="90" font-size="24" font-weight="700" fill="#E2E8F0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">AI reads. Code computes.</text>
-      <text x="36" y="114" font-size="13" fill="#64748B">language models never touch the number that matters &#8212; they only propose what a human confirms</text>
+      <text x="98" y="47" font-size="14" fill="#64748B">IA en dominio regulado</text>
+      <text x="36" y="90" font-size="24" font-weight="700" fill="#E2E8F0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">La IA lee. El c&#243;digo calcula.</text>
+      <text x="36" y="114" font-size="13" fill="#64748B">los modelos nunca tocan el n&#250;mero que importa &#8212; solo proponen lo que un humano confirma</text>
     </g>
 
     <!-- ============ TOP: the AI half ============ -->
-    <text x="36" y="152" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#A78BFA">PROBABILISTIC &#183; EXTRACTION</text>
+    <text x="36" y="152" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#A78BFA">PROBABIL&#205;STICO &#183; EXTRACCI&#211;N</text>
 
     <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
       <!-- documents -->
@@ -63,7 +63,7 @@
             <animate attributeName="y" values="190;258;190" dur="3.4s" begin="1.1s" repeatCount="indefinite"/>
           </rect>
         </g>
-        <text x="56" y="288" font-size="10.5" fill="#64748B">statements &#183; certificates</text>
+        <text x="56" y="288" font-size="10.5" fill="#64748B">documentos fuente</text>
       </g>
 
       <!-- arrows into the two passes -->
@@ -75,8 +75,8 @@
       <!-- pass 1 -->
       <g>
         <rect x="256" y="166" width="212" height="60" rx="10" fill="#0F172A" stroke="#4C1D95"/>
-        <text x="272" y="190" font-size="12.5" font-weight="600" fill="#E2E8F0">Pass 1 &#183; extract</text>
-        <text x="272" y="210" font-size="10.5" fill="#64748B">schema-validated output</text>
+        <text x="272" y="190" font-size="12.5" font-weight="600" fill="#E2E8F0">Pasada 1 &#183; extraer</text>
+        <text x="272" y="210" font-size="10.5" fill="#64748B">validada contra esquema</text>
         <circle cx="450" cy="182" r="4" fill="#A78BFA">
           <animate attributeName="opacity" values="0.2;1;0.2" dur="1.8s" repeatCount="indefinite"/>
         </circle>
@@ -85,8 +85,8 @@
       <!-- pass 2 -->
       <g>
         <rect x="256" y="246" width="212" height="60" rx="10" fill="#0F172A" stroke="#155E75"/>
-        <text x="272" y="270" font-size="12.5" font-weight="600" fill="#E2E8F0">Pass 2 &#183; re-read</text>
-        <text x="272" y="290" font-size="10.5" fill="#64748B">no shared context with pass 1</text>
+        <text x="272" y="270" font-size="12.5" font-weight="600" fill="#E2E8F0">Pasada 2 &#183; releer</text>
+        <text x="272" y="290" font-size="10.5" fill="#64748B">sin contexto de la pasada 1</text>
         <circle cx="450" cy="262" r="4" fill="#38BDF8">
           <animate attributeName="opacity" values="0.2;1;0.2" dur="1.8s" begin="0.6s" repeatCount="indefinite"/>
         </circle>
@@ -104,7 +104,7 @@
         <path d="M576 200 L616 236 L576 272 L536 236 Z" fill="none" stroke="#FBBF24" opacity="0">
           <animate attributeName="opacity" values="0;0.9;0;0" keyTimes="0;0.2;0.4;1" dur="4s" repeatCount="indefinite"/>
         </path>
-        <text x="576" y="233" font-size="10" fill="#FDE68A" text-anchor="middle">agree</text>
+        <text x="576" y="233" font-size="10" fill="#FDE68A" text-anchor="middle">igual</text>
         <text x="576" y="246" font-size="10" fill="#FDE68A" text-anchor="middle">?</text>
       </g>
 
@@ -116,16 +116,16 @@
       <!-- human confirm -->
       <g>
         <rect x="666" y="178" width="230" height="120" rx="12" fill="#0F172A" stroke="#065F46"/>
-        <text x="686" y="210" font-size="12.5" font-weight="600" fill="#E2E8F0">Human confirms each value</text>
-        <text x="686" y="230" font-size="10.5" fill="#64748B">mismatches surface first,</text>
+        <text x="686" y="210" font-size="12.5" font-weight="600" fill="#E2E8F0">Humano confirma cada valor</text>
+        <text x="686" y="230" font-size="10.5" fill="#64748B">discrepancias primero,</text>
         <g>
           <rect x="686" y="256" width="190" height="10" rx="5" fill="#111827"/>
           <rect x="686" y="256" width="0" height="10" rx="5" fill="#065F46">
             <animate attributeName="width" values="0;190;190;0" keyTimes="0;0.6;0.9;1" dur="6s" repeatCount="indefinite"/>
           </rect>
         </g>
-        <text x="686" y="246" font-size="10.5" fill="#64748B">with the source alongside</text>
-        <text x="686" y="286" font-size="10.5" fill="#34D399">nothing advances unconfirmed</text>
+        <text x="686" y="246" font-size="10.5" fill="#64748B">con la fuente al lado</text>
+        <text x="686" y="286" font-size="10.5" fill="#34D399">nada avanza sin confirmar</text>
       </g>
 
       <!-- guided interview -->
@@ -134,14 +134,20 @@
       </g>
       <g>
         <rect x="946" y="178" width="218" height="120" rx="12" fill="#0F172A" stroke="#1E3A8A"/>
-        <text x="966" y="210" font-size="12.5" font-weight="600" fill="#E2E8F0">Adaptive interview</text>
-        <text x="966" y="230" font-size="10.5" fill="#64748B">only what is still unanswered</text>
+        <text x="966" y="210" font-size="12.5" font-weight="600" fill="#E2E8F0">Entrevista guiada</text>
+        <text x="966" y="230" font-size="10.5" fill="#64748B">solo lo que falta responder</text>
         <g font-size="10.5" fill="#94A3B8">
-          <text x="966" y="252" opacity="0">&#8250; mortgage interest this year?<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.28;0.33;1" dur="9s" repeatCount="indefinite"/></text>
-          <text x="966" y="252" opacity="0">&#8250; any dependants to declare?<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.36;0.41;0.62;0.67;1" dur="9s" repeatCount="indefinite"/></text>
-          <text x="966" y="252" opacity="0">&#8250; voluntary pension top-ups?<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.7;0.75;0.96;1" dur="9s" repeatCount="indefinite"/></text>
+          <text x="966" y="252" opacity="0">&#8250; &#191;intereses de hipoteca?
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.28;0.33;1" dur="9s" repeatCount="indefinite"/>
+      </text>
+          <text x="966" y="252" opacity="0">&#8250; &#191;dependientes a declarar?
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.36;0.41;0.62;0.67;1" dur="9s" repeatCount="indefinite"/>
+      </text>
+          <text x="966" y="252" opacity="0">&#8250; &#191;aportes a pensi&#243;n?
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.7;0.75;0.96;1" dur="9s" repeatCount="indefinite"/>
+      </text>
         </g>
-        <text x="966" y="286" font-size="10.5" fill="#64748B">answers become facts</text>
+        <text x="966" y="286" font-size="10.5" fill="#64748B">respuestas = datos</text>
       </g>
     </g>
 
@@ -152,19 +158,17 @@
         <animate attributeName="x" values="36;924;36" dur="7s" repeatCount="indefinite"/>
       </rect>
       <rect x="404" y="316" width="392" height="28" rx="14" fill="#0B1120" stroke="#334155"/>
-      <text x="600" y="335" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#94A3B8">
-        the model&#8217;s job ends here &#8212; nothing below is generated
-      </text>
+      <text x="600" y="335" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#94A3B8">el trabajo del modelo termina aqu&#237; &#8212; nada de lo de abajo se genera</text>
     </g>
 
     <!-- ============ BOTTOM: the deterministic half ============ -->
-    <text x="36" y="368" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#34D399">DETERMINISTIC &#183; CALCULATION</text>
+    <text x="36" y="368" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#34D399">DETERMINISTA &#183; C&#193;LCULO</text>
 
     <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
       <!-- engine -->
       <rect x="36" y="380" width="700" height="248" rx="12" fill="#0B1120" stroke="#065F46"/>
-      <text x="56" y="406" font-size="13.5" font-weight="600" fill="#E2E8F0">Pure calculation core &#183; zero dependencies</text>
-      <text x="56" y="426" font-size="10.5" fill="#64748B">every rule carries the citation that backs it &#183; same input, same output, forever</text>
+      <text x="56" y="406" font-size="13.5" font-weight="600" fill="#E2E8F0">N&#250;cleo de c&#225;lculo puro &#183; cero dependencias</text>
+      <text x="56" y="426" font-size="10.5" fill="#64748B">cada regla lleva la cita que la respalda &#183; misma entrada, misma salida, siempre</text>
 
       <g font-size="11">
         <g>
@@ -173,9 +177,9 @@
             <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.06;0.16;1" dur="8s" repeatCount="indefinite"/>
           </rect>
           <circle cx="74" cy="457" r="3.5" fill="#34D399"/>
-          <text x="92" y="461" fill="#CBD5E1">income buckets classified and netted</text>
+          <text x="92" y="461" fill="#CBD5E1">ingresos clasificados y depurados</text>
           <rect x="560" y="448" width="144" height="18" rx="9" fill="#052E2B"/>
-          <text x="574" y="461" font-size="9.5" fill="#5EEAD4">statute &#167; cited in-repo</text>
+          <text x="574" y="461" font-size="9.5" fill="#5EEAD4">&#167; citada en repo</text>
         </g>
         <g>
           <rect x="56" y="480" width="660" height="30" rx="6" fill="#0F172A" stroke="#1E293B"/>
@@ -183,9 +187,9 @@
             <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.20;0.26;0.36;1" dur="8s" repeatCount="indefinite"/>
           </rect>
           <circle cx="74" cy="495" r="3.5" fill="#34D399"/>
-          <text x="92" y="499" fill="#CBD5E1">deductions applied, then capped by the legal limits</text>
+          <text x="92" y="499" fill="#CBD5E1">deducciones aplicadas y luego topadas por ley</text>
           <rect x="560" y="486" width="144" height="18" rx="9" fill="#052E2B"/>
-          <text x="574" y="499" font-size="9.5" fill="#5EEAD4">statute &#167; cited in-repo</text>
+          <text x="574" y="499" font-size="9.5" fill="#5EEAD4">&#167; citada en repo</text>
         </g>
         <g>
           <rect x="56" y="518" width="660" height="30" rx="6" fill="#0F172A" stroke="#1E293B"/>
@@ -193,9 +197,9 @@
             <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.40;0.46;0.56;1" dur="8s" repeatCount="indefinite"/>
           </rect>
           <circle cx="74" cy="533" r="3.5" fill="#34D399"/>
-          <text x="92" y="537" fill="#CBD5E1">progressive rate table &#183; integer arithmetic, no floats</text>
+          <text x="92" y="537" fill="#CBD5E1">tabla progresiva &#183; aritm&#233;tica entera, sin floats</text>
           <rect x="560" y="524" width="144" height="18" rx="9" fill="#052E2B"/>
-          <text x="574" y="537" font-size="9.5" fill="#5EEAD4">statute &#167; cited in-repo</text>
+          <text x="574" y="537" font-size="9.5" fill="#5EEAD4">&#167; citada en repo</text>
         </g>
         <g>
           <rect x="56" y="556" width="660" height="30" rx="6" fill="#0F172A" stroke="#1E293B"/>
@@ -203,9 +207,9 @@
             <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.60;0.66;0.76;1" dur="8s" repeatCount="indefinite"/>
           </rect>
           <circle cx="74" cy="571" r="3.5" fill="#34D399"/>
-          <text x="92" y="575" fill="#CBD5E1">net-worth consistency check across years</text>
+          <text x="92" y="575" fill="#CBD5E1">consistencia patrimonial entre a&#241;os</text>
           <rect x="560" y="562" width="144" height="18" rx="9" fill="#052E2B"/>
-          <text x="574" y="575" font-size="9.5" fill="#5EEAD4">statute &#167; cited in-repo</text>
+          <text x="574" y="575" font-size="9.5" fill="#5EEAD4">&#167; citada en repo</text>
         </g>
         <g>
           <rect x="56" y="594" width="660" height="24" rx="6" fill="#0F172A" stroke="#1E293B"/>
@@ -213,7 +217,7 @@
             <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.80;0.86;0.96;1" dur="8s" repeatCount="indefinite"/>
           </rect>
           <circle cx="74" cy="606" r="3.5" fill="#34D399"/>
-          <text x="92" y="610" fill="#CBD5E1">final settlement + advance for next period</text>
+          <text x="92" y="610" fill="#CBD5E1">liquidaci&#243;n final + anticipo del siguiente</text>
         </g>
       </g>
     </g>
@@ -221,39 +225,38 @@
     <!-- output + golden test -->
     <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
       <rect x="760" y="380" width="404" height="248" rx="12" fill="#0B1120" stroke="#1E293B"/>
-      <text x="782" y="406" font-size="13.5" font-weight="600" fill="#E2E8F0">Filled form, box by box</text>
+      <text x="782" y="406" font-size="13.5" font-weight="600" fill="#E2E8F0">Casilla por casilla</text>
 
       <g>
         <rect x="782" y="422" width="176" height="22" rx="4" fill="#0F172A" stroke="#1E293B"/>
-        <rect x="782" y="422" width="0" height="22" rx="4" fill="#0F2A24">
+        <rect x="782" y="422" width="176" height="22" rx="4" fill="#0F2A24">
           <animate attributeName="width" values="0;176" dur="0.5s" begin="0.4s" fill="freeze"/>
         </rect>
-        <text x="794" y="437" font-size="10" fill="#94A3B8">gross income</text>
+        <text x="794" y="437" font-size="10" fill="#94A3B8">ingresos brutos</text>
         <rect x="968" y="422" width="176" height="22" rx="4" fill="#0F172A" stroke="#1E293B"/>
-        <rect x="968" y="422" width="0" height="22" rx="4" fill="#0F2A24">
+        <rect x="968" y="422" width="176" height="22" rx="4" fill="#0F2A24">
           <animate attributeName="width" values="0;176" dur="0.5s" begin="0.8s" fill="freeze"/>
         </rect>
-        <text x="980" y="437" font-size="10" fill="#94A3B8">exempt income</text>
+        <text x="980" y="437" font-size="10" fill="#94A3B8">ingresos exentos</text>
 
         <rect x="782" y="452" width="176" height="22" rx="4" fill="#0F172A" stroke="#1E293B"/>
-        <rect x="782" y="452" width="0" height="22" rx="4" fill="#0F2A24">
+        <rect x="782" y="452" width="176" height="22" rx="4" fill="#0F2A24">
           <animate attributeName="width" values="0;176" dur="0.5s" begin="1.2s" fill="freeze"/>
         </rect>
-        <text x="794" y="467" font-size="10" fill="#94A3B8">deductions</text>
+        <text x="794" y="467" font-size="10" fill="#94A3B8">deducciones</text>
         <rect x="968" y="452" width="176" height="22" rx="4" fill="#0F172A" stroke="#1E293B"/>
-        <rect x="968" y="452" width="0" height="22" rx="4" fill="#0F2A24">
+        <rect x="968" y="452" width="176" height="22" rx="4" fill="#0F2A24">
           <animate attributeName="width" values="0;176" dur="0.5s" begin="1.6s" fill="freeze"/>
         </rect>
-        <text x="980" y="467" font-size="10" fill="#94A3B8">taxable base</text>
+        <text x="980" y="467" font-size="10" fill="#94A3B8">base gravable</text>
 
         <rect x="782" y="482" width="362" height="30" rx="4" fill="#0F172A" stroke="#065F46"/>
-        <rect x="782" y="482" width="0" height="30" rx="4" fill="#052E2B">
+        <rect x="782" y="482" width="362" height="30" rx="4" fill="#052E2B">
           <animate attributeName="width" values="0;362" dur="0.7s" begin="2s" fill="freeze"/>
         </rect>
-        <text x="794" y="501" font-size="11" fill="#5EEAD4" opacity="0">
-          tax due &#183; computed, reproducible, explainable
-          <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.5s" fill="freeze"/>
-        </text>
+        <text x="794" y="501" font-size="11" fill="#5EEAD4" opacity="0">impuesto &#183; calculado, reproducible, explicable
+        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.5s" fill="freeze"/>
+      </text>
       </g>
 
       <!-- golden test seal -->
@@ -263,9 +266,9 @@
         <path d="M806 556 L810 561 L818 550" fill="none" stroke="#FBBF24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite"/>
         </path>
-        <text x="834" y="552" font-size="11.5" font-weight="600" fill="#FDE68A">The golden test</text>
-        <text x="834" y="570" font-size="10.5" fill="#94A3B8">a real filing reproduced box by box</text>
-        <text x="834" y="590" font-size="10.5" fill="#94A3B8">if a change breaks it, the change is wrong</text>
+        <text x="834" y="552" font-size="11.5" font-weight="600" fill="#FDE68A">El golden test</text>
+        <text x="834" y="570" font-size="10.5" fill="#94A3B8">una declaraci&#243;n real, casilla a casilla</text>
+        <text x="834" y="590" font-size="10.5" fill="#94A3B8">si un cambio lo rompe, el cambio est&#225; mal</text>
       </g>
     </g>
   </g>

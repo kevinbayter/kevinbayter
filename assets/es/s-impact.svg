@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 722" width="1000" height="722" role="img" aria-label="Reduje el ruido de alertas en producci&#243;n m&#225;s de un 85% con triage asistido por IA delante de la guardia &#8212; menos llamadas, diagn&#243;stico m&#225;s r&#225;pido, menos desgaste. Convert&#237; un ritual manual de ocho pasos en un solo clic, con rollback disponible en cada etapa y todas las acciones auditadas. Puse un agente aut&#243;nomo junto a un cl&#250;ster vivo &#8212; y lo hice seguro. Las lecturas corren libres, las escrituras se detienen en una compuerta de aprobaci&#243;n humana, y las operaciones destructivas siguen bloqueadas sin importar qui&#233;n apruebe. Convert&#237; la arquitectura en un fallo de build, no en una opini&#243;n de code review &#8212; los l&#237;mites entre capas se verifican con tests autom&#225;ticos en cada commit. Cero credenciales persistidas en un flujo regulado que automatiza un portal estatal.">
+  <title>N&#250;meros, no adjetivos</title>
+  <defs>
+    <linearGradient id="imBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0A1524"/>
+    </linearGradient>
+    <radialGradient id="imGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="imClip"><rect width="1000" height="722" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#imClip)">
+    <rect width="1000" height="722" fill="url(#imBg)"/>
+    <ellipse cx="780" cy="-40" rx="420" ry="220" fill="url(#imGlow)">
+      <animate attributeName="cx" values="780;500;780" dur="19s" repeatCount="indefinite"/>
+    </ellipse>
+<text x="40" y="56" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#34D399" letter-spacing="1.6">IMPACTO &#183; LO QUE EL TRABAJO REALMENTE MOVI&#211;</text>
+<text x="40" y="96" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="30" fill="#E2E8F0" font-weight="700">N&#250;meros, no adjetivos</text>
+<rect x="40" y="108" width="351.35" height="3" rx="1.5" fill="#34D399" opacity="0.85"><animate attributeName="width" values="0;351.35" dur="1.1s" fill="freeze"/></rect>
+<rect x="40" y="152" width="172.8" height="188" rx="12" fill="#0F172A" stroke="#1E293B"/>
+<text x="56" y="208" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="34" fill="#38BDF8" font-weight="700">85%+</text>
+<text x="56" y="236" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#CBD5E1">menos ruido de</text>
+<text x="56" y="253" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#CBD5E1">alertas</text>
+<text x="56" y="282" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#64748B">triage con IA delante</text>
+<text x="56" y="297" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#64748B">de la guardia</text>
+<rect x="56" y="318" width="140.8" height="6" rx="3" fill="#111827"/>
+<rect x="56" y="318" width="128.13" height="6" rx="3" fill="#38BDF8" opacity="0.85"><animate attributeName="width" values="0;128.13" dur="1.3s" begin="0.2s" fill="freeze"/></rect>
+<rect x="226.8" y="152" width="172.8" height="188" rx="12" fill="#0F172A" stroke="#1E293B"/>
+<text x="242.8" y="208" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="34" fill="#22D3EE" font-weight="700">20+</text>
+<text x="242.8" y="236" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#CBD5E1">herramientas del</text>
+<text x="242.8" y="253" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#CBD5E1">agente</text>
+<text x="242.8" y="282" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#64748B">cl&#250;ster, gateway,</text>
+<text x="242.8" y="297" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#64748B">logs, trazas, memoria</text>
+<rect x="242.8" y="318" width="140.8" height="6" rx="3" fill="#111827"/>
+<rect x="242.8" y="318" width="118.27" height="6" rx="3" fill="#22D3EE" opacity="0.85"><animate attributeName="width" values="0;118.27" dur="1.3s" begin="0.35s" fill="freeze"/></rect>
+<rect x="413.6" y="152" width="172.8" height="188" rx="12" fill="#0F172A" stroke="#1E293B"/>
+<text x="429.6" y="208" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="34" fill="#A78BFA" font-weight="700">200+</text>
+<text x="429.6" y="236" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#CBD5E1">tests automatizados</text>
+<text x="429.6" y="282" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#64748B">unitarios,</text>
+<text x="429.6" y="297" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#64748B">arquitectura, en el</text>
+<rect x="429.6" y="318" width="140.8" height="6" rx="3" fill="#111827"/>
+<rect x="429.6" y="318" width="135.17" height="6" rx="3" fill="#A78BFA" opacity="0.85"><animate attributeName="width" values="0;135.17" dur="1.3s" begin="0.5s" fill="freeze"/></rect>
+<rect x="600.4" y="152" width="172.8" height="188" rx="12" fill="#0F172A" stroke="#1E293B"/>
+<text x="616.4" y="208" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="34" fill="#34D399" font-weight="700">1 clic</text>
+<text x="616.4" y="236" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#CBD5E1">tag &#8594; prod &#8594;</text>
+<text x="616.4" y="253" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#CBD5E1">rollback</text>
+<text x="616.4" y="282" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#64748B">un ritual manual de</text>
+<text x="616.4" y="297" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#64748B">pasos, ahora</text>
+<rect x="616.4" y="318" width="140.8" height="6" rx="3" fill="#111827"/>
+<rect x="616.4" y="318" width="140.8" height="6" rx="3" fill="#34D399" opacity="0.85"><animate attributeName="width" values="0;140.8" dur="1.3s" begin="0.6499999999999999s" fill="freeze"/></rect>
+<rect x="787.2" y="152" width="172.8" height="188" rx="12" fill="#0F172A" stroke="#1E293B"/>
+<text x="803.2" y="208" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="34" fill="#FBBF24" font-weight="700">cero</text>
+<text x="803.2" y="236" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#CBD5E1">credenciales</text>
+<text x="803.2" y="253" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#CBD5E1">guardadas</text>
+<text x="803.2" y="282" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#64748B">sesiones ef&#237;meras en</text>
+<text x="803.2" y="297" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#64748B">worker aislado, sin</text>
+<rect x="803.2" y="318" width="140.8" height="6" rx="3" fill="#111827"/>
+<rect x="803.2" y="318" width="140.8" height="6" rx="3" fill="#FBBF24" opacity="0.85"><animate attributeName="width" values="0;140.8" dur="1.3s" begin="0.8s" fill="freeze"/></rect>
+<circle cx="45" cy="369" r="4" fill="#38BDF8"/>
+<text x="70" y="374" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#CBD5E1" font-weight="600">Reduje el ruido de alertas en producci&#243;n m&#225;s de un 85%</text>
+<text x="581.5" y="374" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">con triage asistido por IA delante de</text>
+<text x="70" y="399" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">la guardia &#8212; menos llamadas, diagn&#243;stico m&#225;s r&#225;pido, menos desgaste.</text>
+<circle cx="45" cy="435" r="4" fill="#22D3EE"/>
+<text x="70" y="440" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#CBD5E1" font-weight="600">Convert&#237; un ritual manual de ocho pasos en un solo clic,</text>
+<text x="600.1" y="440" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">con rollback disponible en cada</text>
+<text x="70" y="465" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">etapa y todas las acciones auditadas.</text>
+<circle cx="45" cy="501" r="4" fill="#A78BFA"/>
+<text x="70" y="506" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#CBD5E1" font-weight="600">Puse un agente aut&#243;nomo junto a un cl&#250;ster vivo &#8212; y lo hice seguro.</text>
+<text x="702.4" y="506" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">Las lecturas corren</text>
+<text x="70" y="531" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">libres, las escrituras se detienen en una compuerta de aprobaci&#243;n humana, y las operaciones</text>
+<text x="70" y="556" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">destructivas siguen bloqueadas sin importar qui&#233;n apruebe.</text>
+<circle cx="45" cy="592" r="4" fill="#34D399"/>
+<text x="70" y="597" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#CBD5E1" font-weight="600">Convert&#237; la arquitectura en un fallo de build, no en una opini&#243;n de code review</text>
+<text x="814" y="597" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">&#8212; los l&#237;mites</text>
+<text x="70" y="622" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">entre capas se verifican con tests autom&#225;ticos en cada commit.</text>
+<circle cx="45" cy="658" r="4" fill="#FBBF24"/>
+<text x="70" y="663" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#CBD5E1" font-weight="600">Cero credenciales persistidas</text>
+<text x="349" y="663" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">en un flujo regulado que automatiza un portal estatal.</text>
+    <rect x="0.5" y="0.5" width="999" height="721" rx="16" fill="none" stroke="#1E293B"/>
+  </g>
+</svg>

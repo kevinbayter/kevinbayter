@@ -1,0 +1,259 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" width="1200" height="620" role="img" aria-label="{{platformflow.aria}}">
+  <title>{{platformflow.title}}</title>
+
+  <defs>
+    <linearGradient id="pBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0B1526"/>
+    </linearGradient>
+    <linearGradient id="pBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+    <filter id="pGlow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="pArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#334155"/>
+    </marker>
+    <clipPath id="pClip"><rect width="1200" height="620" rx="18"/></clipPath>
+    <path id="pSnake" d="M52 204 L1120 204 L1120 278 L1000 278 L1000 354 L52 354"/>
+  </defs>
+
+  <g clip-path="url(#pClip)">
+    <rect width="1200" height="620" fill="url(#pBg)"/>
+    <rect x="0.5" y="0.5" width="1199" height="619" rx="18" fill="none" stroke="#1E293B"/>
+
+    <!-- header -->
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+      <circle cx="40" cy="42" r="5" fill="#F87171"/>
+      <circle cx="58" cy="42" r="5" fill="#FBBF24"/>
+      <circle cx="76" cy="42" r="5" fill="#34D399"/>
+      <text x="98" y="47" font-size="14" fill="#64748B">{{platformflow.t1}}</text>
+      <text x="36" y="90" font-size="22" font-weight="700" fill="#E2E8F0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">{{platformflow.t2}}</text>
+      <text x="36" y="114" font-size="13" fill="#64748B">{{platformflow.t3}}</text>
+    </g>
+
+    <!-- snake rail -->
+    <path d="M52 204 L1120 204 L1120 278 L1000 278 L1000 354 L52 354" fill="none" stroke="#1E293B" stroke-width="2"/>
+
+    <!-- artifact traveling the whole path -->
+    <g filter="url(#pGlow)">
+      <rect x="-5" y="-5" width="10" height="10" rx="2" fill="#22D3EE">
+        <animateMotion dur="9s" repeatCount="indefinite" rotate="0">
+          <mpath href="#pSnake"/>
+        </animateMotion>
+      </rect>
+    </g>
+    <circle r="3" fill="#60A5FA" opacity="0.7">
+      <animateMotion dur="9s" begin="3s" repeatCount="indefinite">
+        <mpath href="#pSnake"/>
+      </animateMotion>
+    </circle>
+
+    <!-- arrows -->
+    <g stroke="#334155" stroke-width="1.6" fill="none" marker-end="url(#pArrow)">
+      <path d="M282 204 L314 204"/>
+      <path d="M562 204 L594 204"/>
+      <path d="M842 204 L874 204"/>
+      <path d="M1000 254 L1000 300"/>
+      <path d="M878 354 L846 354"/>
+      <path d="M598 354 L566 354"/>
+      <path d="M318 354 L286 354"/>
+    </g>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+
+      <!-- ROW 1 -->
+      <g>
+        <rect x="40" y="156" width="242" height="96" rx="12" fill="#0F172A" stroke="#1E3A8A"/>
+        <rect x="40" y="156" width="242" height="96" rx="12" fill="none" stroke="#3B82F6" opacity="0">
+          <animate attributeName="opacity" values="0;0.9;0;0" dur="9s" keyTimes="0;0.03;0.11;1" repeatCount="indefinite"/>
+        </rect>
+        <text x="58" y="180" font-size="10.5" fill="#3B82F6">{{platformflow.t4}}</text>
+        <text x="58" y="204" font-size="13.5" font-weight="600" fill="#E2E8F0">{{platformflow.t5}}</text>
+        <text x="58" y="224" font-size="10" fill="#64748B">{{platformflow.t6}}</text>
+        <text x="58" y="240" font-size="10" fill="#64748B">{{platformflow.t7}}</text>
+      </g>
+
+      <g>
+        <rect x="320" y="156" width="242" height="96" rx="12" fill="#0F172A" stroke="#155E75"/>
+        <rect x="320" y="156" width="242" height="96" rx="12" fill="none" stroke="#22D3EE" opacity="0">
+          <animate attributeName="opacity" values="0;0.9;0;0" dur="9s" keyTimes="0;0.14;0.22;1" repeatCount="indefinite"/>
+        </rect>
+        <text x="338" y="180" font-size="10.5" fill="#22D3EE">{{platformflow.t8}}</text>
+        <text x="338" y="204" font-size="13.5" font-weight="600" fill="#E2E8F0">{{platformflow.t9}}</text>
+        <text x="338" y="224" font-size="10" fill="#64748B">{{platformflow.t10}}</text>
+        <text x="338" y="240" font-size="10" fill="#64748B">{{platformflow.t11}}</text>
+        <g transform="translate(524 180)">
+          <circle r="7" fill="none" stroke="#22D3EE" stroke-width="2" stroke-dasharray="22 22" stroke-linecap="round">
+            <animateTransform attributeName="transform" type="rotate" values="0;360" dur="1.6s" repeatCount="indefinite"/>
+          </circle>
+        </g>
+      </g>
+
+      <g>
+        <rect x="600" y="156" width="242" height="96" rx="12" fill="#0F172A" stroke="#4C1D95"/>
+        <rect x="600" y="156" width="242" height="96" rx="12" fill="none" stroke="#A78BFA" opacity="0">
+          <animate attributeName="opacity" values="0;0.9;0;0" dur="9s" keyTimes="0;0.25;0.33;1" repeatCount="indefinite"/>
+        </rect>
+        <text x="618" y="180" font-size="10.5" fill="#A78BFA">{{platformflow.t12}}</text>
+        <text x="618" y="204" font-size="13.5" font-weight="600" fill="#E2E8F0">{{platformflow.t13}}</text>
+        <text x="618" y="224" font-size="10" fill="#64748B">{{platformflow.t14}}</text>
+        <text x="618" y="240" font-size="10" fill="#64748B">{{platformflow.t15}}</text>
+      </g>
+
+      <g>
+        <rect x="880" y="156" width="242" height="96" rx="12" fill="#0F172A" stroke="#065F46"/>
+        <rect x="880" y="156" width="242" height="96" rx="12" fill="none" stroke="#34D399" opacity="0">
+          <animate attributeName="opacity" values="0;0.9;0;0" dur="9s" keyTimes="0;0.36;0.44;1" repeatCount="indefinite"/>
+        </rect>
+        <text x="898" y="180" font-size="10.5" fill="#34D399">{{platformflow.t16}}</text>
+        <text x="898" y="204" font-size="13.5" font-weight="600" fill="#E2E8F0">{{platformflow.t17}}</text>
+        <text x="898" y="224" font-size="10" fill="#64748B">{{platformflow.t18}}</text>
+        <text x="898" y="240" font-size="10" fill="#64748B">{{platformflow.t19}}</text>
+      </g>
+
+      <!-- ROW 2 -->
+      <g>
+        <rect x="880" y="306" width="242" height="96" rx="12" fill="#0F172A" stroke="#92400E"/>
+        <rect x="880" y="306" width="242" height="96" rx="12" fill="none" stroke="#FBBF24" opacity="0">
+          <animate attributeName="opacity" values="0;0.9;0;0" dur="9s" keyTimes="0;0.50;0.58;1" repeatCount="indefinite"/>
+        </rect>
+        <text x="898" y="330" font-size="10.5" fill="#FBBF24">{{platformflow.t20}}</text>
+        <text x="898" y="354" font-size="13.5" font-weight="600" fill="#E2E8F0">{{platformflow.t21}}</text>
+        <text x="898" y="374" font-size="10" fill="#64748B">{{platformflow.t22}}</text>
+        <text x="898" y="390" font-size="10" fill="#64748B">{{platformflow.t23}}</text>
+      </g>
+
+      <g>
+        <rect x="600" y="306" width="242" height="96" rx="12" fill="#0F172A" stroke="#1E3A8A"/>
+        <rect x="600" y="306" width="242" height="96" rx="12" fill="none" stroke="#3B82F6" opacity="0">
+          <animate attributeName="opacity" values="0;0.9;0;0" dur="9s" keyTimes="0;0.62;0.70;1" repeatCount="indefinite"/>
+        </rect>
+        <text x="618" y="330" font-size="10.5" fill="#3B82F6">{{platformflow.t24}}</text>
+        <text x="618" y="354" font-size="13.5" font-weight="600" fill="#E2E8F0">{{platformflow.t25}}</text>
+        <text x="618" y="374" font-size="10" fill="#64748B">{{platformflow.t26}}</text>
+        <text x="618" y="390" font-size="10" fill="#64748B">{{platformflow.t27}}</text>
+      </g>
+
+      <g>
+        <rect x="320" y="306" width="242" height="96" rx="12" fill="#0F172A" stroke="#155E75"/>
+        <rect x="320" y="306" width="242" height="96" rx="12" fill="none" stroke="#22D3EE" opacity="0">
+          <animate attributeName="opacity" values="0;0.9;0;0" dur="9s" keyTimes="0;0.74;0.82;1" repeatCount="indefinite"/>
+        </rect>
+        <text x="338" y="330" font-size="10.5" fill="#22D3EE">{{platformflow.t28}}</text>
+        <text x="338" y="354" font-size="13.5" font-weight="600" fill="#E2E8F0">{{platformflow.t29}}</text>
+        <text x="338" y="374" font-size="10" fill="#64748B">{{platformflow.t30}}</text>
+        <text x="338" y="390" font-size="10" fill="#64748B">{{platformflow.t31}}</text>
+      </g>
+
+      <g>
+        <rect x="40" y="306" width="242" height="96" rx="12" fill="#0F172A" stroke="#065F46"/>
+        <rect x="40" y="306" width="242" height="96" rx="12" fill="none" stroke="#34D399" opacity="0">
+          <animate attributeName="opacity" values="0;0.9;0;0" dur="9s" keyTimes="0;0.86;0.96;1" repeatCount="indefinite"/>
+        </rect>
+        <text x="58" y="330" font-size="10.5" fill="#34D399">{{platformflow.t32}}</text>
+        <text x="58" y="354" font-size="13.5" font-weight="600" fill="#E2E8F0">{{platformflow.t33}}</text>
+        <text x="58" y="374" font-size="10" fill="#64748B">{{platformflow.t34}}</text>
+        <text x="58" y="390" font-size="10" fill="#64748B">{{platformflow.t35}}</text>
+      </g>
+    </g>
+
+    <!-- ============ bottom left: live event stream ============ -->
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">
+      <rect x="40" y="428" width="580" height="156" rx="12" fill="#0B1120" stroke="#1E293B"/>
+      <text x="60" y="452" font-size="10.5" fill="#475569">{{platformflow.t36}}</text>
+      <circle cx="596" cy="448" r="4" fill="#34D399">
+        <animate attributeName="opacity" values="0.2;1;0.2" dur="1.4s" repeatCount="indefinite"/>
+      </circle>
+
+      <g>
+        <circle cx="66" cy="480" r="4" fill="#3B82F6" opacity="0"><animate attributeName="opacity" values="0;1;1" keyTimes="0;0.08;1" dur="9s" repeatCount="indefinite"/></circle>
+        <text x="84" y="484" fill="#94A3B8" opacity="0">{{platformflow.t37}}
+        <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.08;1" dur="9s" repeatCount="indefinite"/>
+      </text>
+      </g>
+      <g>
+        <circle cx="66" cy="506" r="4" fill="#22D3EE" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.30;0.34;1" dur="9s" repeatCount="indefinite"/></circle>
+        <text x="84" y="510" fill="#94A3B8" opacity="0">{{platformflow.t38}}
+        <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.30;0.34;1" dur="9s" repeatCount="indefinite"/>
+      </text>
+      </g>
+      <g>
+        <circle cx="66" cy="532" r="4" fill="#FBBF24" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.58;0.62;1" dur="9s" repeatCount="indefinite"/></circle>
+        <text x="84" y="536" fill="#94A3B8" opacity="0">{{platformflow.t39}}
+        <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.58;0.62;1" dur="9s" repeatCount="indefinite"/>
+      </text>
+      </g>
+      <g>
+        <circle cx="66" cy="558" r="4" fill="#34D399" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.86;0.90;1" dur="9s" repeatCount="indefinite"/></circle>
+        <text x="84" y="562" fill="#34D399" opacity="0">{{platformflow.t40}}
+        <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.86;0.90;1" dur="9s" repeatCount="indefinite"/>
+      </text>
+      </g>
+
+      <!-- progress bar -->
+      <rect x="380" y="470" width="220" height="8" rx="4" fill="#111827"/>
+      <rect x="380" y="470" width="0" height="8" rx="4" fill="url(#pBar)">
+        <animate attributeName="width" values="0;220;220;0" keyTimes="0;0.9;0.98;1" dur="9s" repeatCount="indefinite"/>
+      </rect>
+      <text x="380" y="500" font-size="10" fill="#475569">{{platformflow.t41}}</text>
+    </g>
+
+    <!-- ============ bottom right: cluster pods ============ -->
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">
+      <rect x="640" y="428" width="482" height="156" rx="12" fill="#0B1120" stroke="#1E293B"/>
+      <text x="660" y="452" font-size="10.5" fill="#475569">{{platformflow.t42}}</text>
+
+      <g>
+        <rect x="660" y="466" width="52" height="52" rx="8" fill="#0F172A" stroke="#334155"/>
+        <rect x="660" y="466" width="52" height="52" rx="8" fill="none" stroke="#34D399" opacity="0">
+          <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.55;0.62;1" dur="9s" repeatCount="indefinite"/>
+        </rect>
+        <circle cx="686" cy="492" r="6" fill="#334155">
+          <animate attributeName="fill" values="#334155;#334155;#34D399;#34D399" keyTimes="0;0.55;0.62;1" dur="9s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+      <g>
+        <rect x="726" y="466" width="52" height="52" rx="8" fill="#0F172A" stroke="#334155"/>
+        <rect x="726" y="466" width="52" height="52" rx="8" fill="none" stroke="#34D399" opacity="0">
+          <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.66;0.72;1" dur="9s" repeatCount="indefinite"/>
+        </rect>
+        <circle cx="752" cy="492" r="6" fill="#334155">
+          <animate attributeName="fill" values="#334155;#334155;#34D399;#34D399" keyTimes="0;0.66;0.72;1" dur="9s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+      <g>
+        <rect x="792" y="466" width="52" height="52" rx="8" fill="#0F172A" stroke="#334155"/>
+        <rect x="792" y="466" width="52" height="52" rx="8" fill="none" stroke="#34D399" opacity="0">
+          <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.76;0.82;1" dur="9s" repeatCount="indefinite"/>
+        </rect>
+        <circle cx="818" cy="492" r="6" fill="#334155">
+          <animate attributeName="fill" values="#334155;#334155;#34D399;#34D399" keyTimes="0;0.76;0.82;1" dur="9s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+      <g>
+        <rect x="858" y="466" width="52" height="52" rx="8" fill="#0F172A" stroke="#334155"/>
+        <rect x="858" y="466" width="52" height="52" rx="8" fill="none" stroke="#34D399" opacity="0">
+          <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.86;0.92;1" dur="9s" repeatCount="indefinite"/>
+        </rect>
+        <circle cx="884" cy="492" r="6" fill="#334155">
+          <animate attributeName="fill" values="#334155;#334155;#34D399;#34D399" keyTimes="0;0.86;0.92;1" dur="9s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+
+      <text x="660" y="546" fill="#64748B">{{platformflow.t43}}</text>
+      <text x="660" y="566" fill="#64748B">{{platformflow.t44}}</text>
+
+      <!-- heartbeat -->
+      <g stroke="#34D399" stroke-width="1.6" fill="none" opacity="0.9">
+        <path d="M940 492 L968 492 L976 474 L988 510 L998 492 L1092 492"/>
+        <path d="M940 492 L968 492 L976 474 L988 510 L998 492 L1092 492" stroke="#0B1120" stroke-width="3">
+          <animate attributeName="stroke-dasharray" values="0 200;200 0" dur="2.6s" repeatCount="indefinite"/>
+        </path>
+      </g>
+    </g>
+  </g>
+</svg>

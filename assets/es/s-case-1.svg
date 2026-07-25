@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 978" width="1000" height="978" role="img" aria-label="Un LLM con las manos en producci&#243;n. Un agente operativo embebido en una plataforma interna. Le preguntas &#8220;&#191;por qu&#233; este servicio est&#225; devolviendo 5xx?&#8221; y no adivina: va y mira. Inspecciona workloads, lee las definiciones de rutas del gateway, consulta m&#233;tricas, logs y trazas, correlaciona alertas y vuelve con evidencia.">
+  <title>Un LLM con las manos en producci&#243;n</title>
+  <defs>
+    <linearGradient id="c0Bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0A1524"/>
+    </linearGradient>
+    <radialGradient id="c0Glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="c0Clip"><rect width="1000" height="978" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#c0Clip)">
+    <rect width="1000" height="978" fill="url(#c0Bg)"/>
+    <ellipse cx="780" cy="-40" rx="420" ry="220" fill="url(#c0Glow)">
+      <animate attributeName="cx" values="780;500;780" dur="19s" repeatCount="indefinite"/>
+    </ellipse>
+<text x="40" y="52" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#A78BFA" letter-spacing="1.6">01 &#183; OPERACIONES AG&#201;NTICAS</text>
+<text x="40" y="86" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="27" fill="#E2E8F0" font-weight="700">Un LLM con las manos en producci&#243;n</text>
+<rect x="40" y="126" width="96" height="3" rx="1.5" fill="#A78BFA" opacity="0.85"><animate attributeName="width" values="0;96" dur="1s" fill="freeze"/></rect>
+<text x="40" y="156" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#94A3B8">Un agente operativo embebido en una plataforma interna. Le preguntas &#8220;&#191;por qu&#233; este servicio</text>
+<text x="40" y="183" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#94A3B8">est&#225; devolviendo 5xx?&#8221; y no adivina: va y mira. Inspecciona workloads, lee las definiciones de</text>
+<text x="40" y="210" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#94A3B8">rutas del gateway, consulta m&#233;tricas, logs y trazas, correlaciona alertas y vuelve con</text>
+<text x="40" y="237" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#94A3B8">evidencia.</text>
+<text x="56" y="308" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#A78BFA" letter-spacing="1.2">PROBLEMA</text>
+<text x="442" y="308" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#A78BFA" letter-spacing="1.2">DECISI&#211;N DE INGENIER&#205;A</text>
+<line x1="40" y1="320" x2="960" y2="320" stroke="#1E293B"/>
+<rect x="40" y="320" width="920" height="94" fill="#0F172A" opacity="0.55"/>
+<text x="56" y="348" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#94A3B8">Un LLM con acceso al cl&#250;ster es un pasivo</text>
+<text x="442" y="348" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#CBD5E1">Cada herramienta est&#225; clasificada por riesgo: las lecturas</text>
+<text x="442" y="370" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#CBD5E1">se ejecutan de inmediato, las escrituras se vuelven una</text>
+<text x="442" y="392" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#CBD5E1">acci&#243;n pendiente que un humano debe confirmar</text>
+<line x1="426" y1="320" x2="426" y2="414" stroke="#1E293B"/>
+<line x1="40" y1="414" x2="960" y2="414" stroke="#1E293B"/>
+<text x="56" y="442" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#94A3B8">&quot;Aprobado&quot; no es lo mismo que &quot;seguro&quot;</text>
+<text x="442" y="442" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#CBD5E1">Una lista de bloqueo dura sobrevive a la aprobaci&#243;n:</text>
+<text x="442" y="464" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#CBD5E1">borrados masivos, namespaces protegidos, nodos, cluster</text>
+<text x="442" y="486" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#CBD5E1">roles y vol&#250;menes nunca son ejecutables</text>
+<line x1="426" y1="414" x2="426" y2="508" stroke="#1E293B"/>
+<line x1="40" y1="508" x2="960" y2="508" stroke="#1E293B"/>
+<rect x="40" y="508" width="920" height="72" fill="#0F172A" opacity="0.55"/>
+<text x="56" y="536" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#94A3B8">La salida de las herramientas filtra</text>
+<text x="56" y="558" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#94A3B8">secretos</text>
+<text x="442" y="536" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#CBD5E1">La salida se redacta antes de llegar al modelo, no despu&#233;s</text>
+<line x1="426" y1="508" x2="426" y2="580" stroke="#1E293B"/>
+<line x1="40" y1="580" x2="960" y2="580" stroke="#1E293B"/>
+<text x="56" y="608" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#94A3B8">Un solo proveedor es un punto &#250;nico de</text>
+<text x="56" y="630" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#94A3B8">falla</text>
+<text x="442" y="608" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#CBD5E1">Enrutamiento multi-proveedor con failover autom&#225;tico,</text>
+<text x="442" y="630" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#CBD5E1">presupuestos de tokens por proveedor y l&#237;mite de</text>
+<text x="442" y="652" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#CBD5E1">iteraciones</text>
+<line x1="426" y1="580" x2="426" y2="674" stroke="#1E293B"/>
+<line x1="40" y1="674" x2="960" y2="674" stroke="#1E293B"/>
+<rect x="40" y="674" width="920" height="94" fill="#0F172A" opacity="0.55"/>
+<text x="56" y="702" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#94A3B8">Un agente que &quot;piensa&quot; en silencio parece</text>
+<text x="56" y="724" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#94A3B8">roto</text>
+<text x="442" y="702" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#CBD5E1">Streaming por SSE del texto parcial, el progreso de cada</text>
+<text x="442" y="724" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#CBD5E1">herramienta y gr&#225;ficas de m&#233;tricas dentro de la</text>
+<text x="442" y="746" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#CBD5E1">conversaci&#243;n</text>
+<line x1="426" y1="674" x2="426" y2="768" stroke="#1E293B"/>
+<line x1="40" y1="768" x2="960" y2="768" stroke="#1E293B"/>
+<text x="56" y="796" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#94A3B8">Los agentes olvidan lo que ense&#241;&#243; el</text>
+<text x="56" y="818" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#94A3B8">&#250;ltimo incidente</text>
+<text x="442" y="796" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#CBD5E1">Una memoria operativa persistente que el agente puede</text>
+<text x="442" y="818" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#CBD5E1">escribir, recordar y olvidar</text>
+<line x1="426" y1="768" x2="426" y2="840" stroke="#1E293B"/>
+<line x1="40" y1="840" x2="960" y2="840" stroke="#1E293B"/>
+<rect x="40" y="856" width="60.5" height="22" rx="11" fill="#111827" stroke="#1E293B"/>
+<text x="53" y="871" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#A78BFA">STACK</text>
+<text x="112.5" y="871" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#64748B">TypeScript &#183; Node &#183; Prisma/PostgreSQL &#183; Redis + BullMQ &#183; servidores MCP &#183; Kubernetes &#183; CRDs de APISIX &#183;</text>
+<text x="112.5" y="892" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#64748B">Prometheus &#183; Loki &#183; Grafana &#183; SSE</text>
+<rect x="40" y="910" width="60.5" height="22" rx="11" fill="#111827" stroke="#1E293B"/>
+<text x="53" y="925" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#A78BFA">FORMA</text>
+<text x="112.5" y="925" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#64748B">20+ herramientas tipadas &#183; loop ag&#233;ntico acotado a 14 iteraciones &#183; trazabilidad completa por ejecuci&#243;n</text>
+    <rect x="0.5" y="0.5" width="999" height="977" rx="16" fill="none" stroke="#1E293B"/>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 347" width="1000" height="347" role="img" aria-label="Si tiene que acertar, no solo impresionar. Si est&#225;s construyendo algo donde la IA tiene que acertar &#8212; agentes con permisos reales, plataformas de las que dependen otros ingenieros, o sistemas de pago que no se pueden caer &#8212; me gustar&#237;a escucharlo.">
+  <title>Si tiene que acertar, no solo impresionar</title>
+  <defs>
+    <linearGradient id="ctBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0A1524"/>
+    </linearGradient>
+    <radialGradient id="ctGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="ctClip"><rect width="1000" height="347" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#ctClip)">
+    <rect width="1000" height="347" fill="url(#ctBg)"/>
+    <ellipse cx="780" cy="-40" rx="420" ry="220" fill="url(#ctGlow)">
+      <animate attributeName="cx" values="780;500;780" dur="19s" repeatCount="indefinite"/>
+    </ellipse>
+<text x="500" y="60" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#38BDF8" text-anchor="middle" letter-spacing="1.8">HABLEMOS</text>
+<text x="500" y="104" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="30" fill="#E2E8F0" font-weight="700" text-anchor="middle">Si tiene que acertar, no solo impresionar</text>
+<text x="500" y="158" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#94A3B8" text-anchor="middle">Si est&#225;s construyendo algo donde la IA tiene que acertar &#8212; agentes con permisos</text>
+<text x="500" y="185" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#94A3B8" text-anchor="middle">reales, plataformas de las que dependen otros ingenieros, o sistemas de pago que</text>
+<text x="500" y="212" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#94A3B8" text-anchor="middle">no se pueden caer &#8212; me gustar&#237;a escucharlo.</text>
+<line x1="440" y1="273" x2="560" y2="273" stroke="#334155"/>
+<text x="500" y="307" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#475569" text-anchor="middle">&quot;El modelo propone. El c&#243;digo decide. El humano aprueba.&quot;</text>
+    <rect x="0.5" y="0.5" width="999" height="346" rx="16" fill="none" stroke="#1E293B"/>
+  </g>
+</svg>

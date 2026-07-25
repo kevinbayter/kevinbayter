@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520" role="img" aria-label="Hexagonal architecture with layer boundaries enforced automatically by lint rules and architecture tests">
-  <title>Architecture that cannot rot</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520" role="img" aria-label="{{hexagon.aria}}">
+  <title>{{hexagon.title}}</title>
 
   <defs>
     <linearGradient id="xBg" x1="0" y1="0" x2="1" y2="1">
@@ -25,9 +25,9 @@
       <circle cx="40" cy="42" r="5" fill="#F87171"/>
       <circle cx="58" cy="42" r="5" fill="#FBBF24"/>
       <circle cx="76" cy="42" r="5" fill="#34D399"/>
-      <text x="98" y="47" font-size="14" fill="#64748B">architecture &#8212; enforced, not documented</text>
-      <text x="36" y="90" font-size="22" font-weight="700" fill="#E2E8F0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">Boundaries a rushed pull request cannot cross</text>
-      <text x="36" y="114" font-size="13" fill="#64748B">the same hexagonal contract in both platforms &#183; verified on every commit, in CI</text>
+      <text x="98" y="47" font-size="14" fill="#64748B">{{hexagon.t1}}</text>
+      <text x="36" y="90" font-size="22" font-weight="700" fill="#E2E8F0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">{{hexagon.t2}}</text>
+      <text x="36" y="114" font-size="13" fill="#64748B">{{hexagon.t3}}</text>
     </g>
 
     <!-- ambient core light -->
@@ -55,42 +55,42 @@
     </circle>
 
     <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" text-anchor="middle">
-      <text x="300" y="296" font-size="12" font-weight="600" fill="#A7F3D0">domain</text>
-      <text x="300" y="312" font-size="9.5" fill="#4ADE80">pure &#183; 0 deps</text>
-      <text x="300" y="238" font-size="10" fill="#22D3EE">ports</text>
-      <text x="300" y="196" font-size="10" fill="#60A5FA">adapters</text>
+      <text x="300" y="296" font-size="12" font-weight="600" fill="#A7F3D0">{{hexagon.t4}}</text>
+      <text x="300" y="312" font-size="9.5" fill="#4ADE80">{{hexagon.t5}}</text>
+      <text x="300" y="238" font-size="10" fill="#22D3EE">{{hexagon.t6}}</text>
+      <text x="300" y="196" font-size="10" fill="#60A5FA">{{hexagon.t7}}</text>
     </g>
 
     <!-- adapter chips around the hexagon -->
     <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" text-anchor="middle">
       <g>
         <rect x="425" y="288" width="118" height="24" rx="12" fill="#0F172A" stroke="#1E3A8A"/>
-        <text x="484" y="304" fill="#93C5FD">LLM provider</text>
+        <text x="484" y="304" fill="#93C5FD">{{hexagon.t8}}</text>
         <animate attributeName="opacity" values="0.55;1;0.55" dur="5s" repeatCount="indefinite"/>
       </g>
       <g>
         <rect x="336" y="448" width="118" height="24" rx="12" fill="#0F172A" stroke="#1E3A8A"/>
-        <text x="395" y="464" fill="#93C5FD">Postgres</text>
+        <text x="395" y="464" fill="#93C5FD">{{hexagon.t9}}</text>
         <animate attributeName="opacity" values="0.55;1;0.55" dur="5s" begin="0.8s" repeatCount="indefinite"/>
       </g>
       <g>
         <rect x="149" y="448" width="118" height="24" rx="12" fill="#0F172A" stroke="#1E3A8A"/>
-        <text x="208" y="464" fill="#93C5FD">headless browser</text>
+        <text x="208" y="464" fill="#93C5FD">{{hexagon.t10}}</text>
         <animate attributeName="opacity" values="0.55;1;0.55" dur="5s" begin="1.6s" repeatCount="indefinite"/>
       </g>
       <g>
         <rect x="57" y="288" width="118" height="24" rx="12" fill="#0F172A" stroke="#1E3A8A"/>
-        <text x="116" y="304" fill="#93C5FD">Kubernetes</text>
+        <text x="116" y="304" fill="#93C5FD">{{hexagon.t11}}</text>
         <animate attributeName="opacity" values="0.55;1;0.55" dur="5s" begin="2.4s" repeatCount="indefinite"/>
       </g>
       <g>
         <rect x="149" y="128" width="118" height="24" rx="12" fill="#0F172A" stroke="#1E3A8A"/>
-        <text x="208" y="144" fill="#93C5FD">CI / VCS API</text>
+        <text x="208" y="144" fill="#93C5FD">{{hexagon.t12}}</text>
         <animate attributeName="opacity" values="0.55;1;0.55" dur="5s" begin="3.2s" repeatCount="indefinite"/>
       </g>
       <g>
         <rect x="336" y="128" width="118" height="24" rx="12" fill="#0F172A" stroke="#1E3A8A"/>
-        <text x="395" y="144" fill="#93C5FD">metrics / logs</text>
+        <text x="395" y="144" fill="#93C5FD">{{hexagon.t13}}</text>
         <animate attributeName="opacity" values="0.55;1;0.55" dur="5s" begin="4s" repeatCount="indefinite"/>
       </g>
     </g>
@@ -113,15 +113,15 @@
     <!-- ============ right panel: the enforcement ============ -->
     <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
       <rect x="620" y="140" width="544" height="340" rx="12" fill="#0B1120" stroke="#1E293B"/>
-      <text x="644" y="168" font-size="10.5" fill="#475569">DEPENDENCY DIRECTION &#183; CHECKED IN CI</text>
+      <text x="644" y="168" font-size="10.5" fill="#475569">{{hexagon.t14}}</text>
 
       <!-- allowed -->
       <g>
         <rect x="644" y="186" width="496" height="46" rx="8" fill="#0F172A" stroke="#065F46"/>
         <circle cx="668" cy="209" r="9" fill="none" stroke="#34D399" stroke-width="1.6"/>
         <path d="M663 209 L667 213 L674 204" fill="none" stroke="#34D399" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-        <text x="690" y="206" font-size="11.5" fill="#CBD5E1">adapters &#8594; ports &#8594; domain</text>
-        <text x="690" y="223" font-size="10" fill="#64748B">the only direction anything is allowed to point</text>
+        <text x="690" y="206" font-size="11.5" fill="#CBD5E1">{{hexagon.t15}}</text>
+        <text x="690" y="223" font-size="10" fill="#64748B">{{hexagon.t16}}</text>
       </g>
 
       <!-- blocked -->
@@ -132,34 +132,29 @@
         </rect>
         <circle cx="668" cy="267" r="9" fill="none" stroke="#F87171" stroke-width="1.6"/>
         <path d="M664 263 L672 271 M672 263 L664 271" stroke="#F87171" stroke-width="1.8" stroke-linecap="round"/>
-        <text x="690" y="264" font-size="11.5" fill="#CBD5E1">domain &#8594; adapters</text>
-        <text x="690" y="281" font-size="10" fill="#64748B">rejected by lint and by a test that reads the real imports</text>
+        <text x="690" y="264" font-size="11.5" fill="#CBD5E1">{{hexagon.t17}}</text>
+        <text x="690" y="281" font-size="10" fill="#64748B">{{hexagon.t18}}</text>
       </g>
 
       <!-- terminal output -->
       <rect x="644" y="304" width="496" height="152" rx="8" fill="#020617" stroke="#1E293B"/>
       <g font-size="10.5">
-        <text x="662" y="328" fill="#475569">$ pnpm test:architecture</text>
-        <text x="662" y="350" fill="#94A3B8" opacity="0">
-          scanning real import graph&#8230;
-          <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.14;1" dur="7s" repeatCount="indefinite"/>
-        </text>
-        <text x="662" y="372" fill="#34D399" opacity="0">
-          &#10003; domain imports nothing outside itself
-          <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.28;0.34;1" dur="7s" repeatCount="indefinite"/>
-        </text>
-        <text x="662" y="394" fill="#34D399" opacity="0">
-          &#10003; use cases depend on ports, never on implementations
-          <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.46;0.52;1" dur="7s" repeatCount="indefinite"/>
-        </text>
-        <text x="662" y="416" fill="#34D399" opacity="0">
-          &#10003; controllers never reach the database directly
-          <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.64;0.7;1" dur="7s" repeatCount="indefinite"/>
-        </text>
-        <text x="662" y="440" fill="#FDE68A" opacity="0">
-          layers verified &#183; 200+ automated tests green &#183; merge unblocked
-          <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.84;0.9;1" dur="7s" repeatCount="indefinite"/>
-        </text>
+        <text x="662" y="328" fill="#475569">{{hexagon.t19}}</text>
+        <text x="662" y="350" fill="#94A3B8" opacity="0">{{hexagon.t20}}
+        <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.14;1" dur="7s" repeatCount="indefinite"/>
+      </text>
+        <text x="662" y="372" fill="#34D399" opacity="0">{{hexagon.t21}}
+        <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.28;0.34;1" dur="7s" repeatCount="indefinite"/>
+      </text>
+        <text x="662" y="394" fill="#34D399" opacity="0">{{hexagon.t22}}
+        <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.46;0.52;1" dur="7s" repeatCount="indefinite"/>
+      </text>
+        <text x="662" y="416" fill="#34D399" opacity="0">{{hexagon.t23}}
+        <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.64;0.7;1" dur="7s" repeatCount="indefinite"/>
+      </text>
+        <text x="662" y="440" fill="#FDE68A" opacity="0">{{hexagon.t24}}
+        <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.84;0.9;1" dur="7s" repeatCount="indefinite"/>
+      </text>
       </g>
     </g>
   </g>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 314" width="1000" height="314" role="img" aria-label="Code review con IA, triage de alertas y automatizaci&#243;n. Code review con LLM disparado por webhooks, que publica comentarios inline anclados al diff real con sugerencias aplicables, deduplicados entre re-reviews y con fallback de modelos. Triage de alertas con IA que convierte ruido en tickets diagnosticados y accionables. Y herramientas internas que eliminan el trabajo tedioso que los equipos absorben en silencio.">
+  <title>Code review con IA, triage de alertas y automatizaci&#243;n</title>
+  <defs>
+    <linearGradient id="c3Bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0A1524"/>
+    </linearGradient>
+    <radialGradient id="c3Glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="c3Clip"><rect width="1000" height="314" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#c3Clip)">
+    <rect width="1000" height="314" fill="url(#c3Bg)"/>
+    <ellipse cx="780" cy="-40" rx="420" ry="220" fill="url(#c3Glow)">
+      <animate attributeName="cx" values="780;500;780" dur="19s" repeatCount="indefinite"/>
+    </ellipse>
+<text x="40" y="52" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#FBBF24" letter-spacing="1.6">04 &#183; SISTEMAS M&#193;S PEQUE&#209;OS, MISMA FILOSOF&#205;A</text>
+<text x="40" y="86" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="27" fill="#E2E8F0" font-weight="700">Code review con IA, triage de alertas y automatizaci&#243;n</text>
+<rect x="40" y="126" width="96" height="3" rx="1.5" fill="#FBBF24" opacity="0.85"><animate attributeName="width" values="0;96" dur="1s" fill="freeze"/></rect>
+<text x="40" y="156" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#94A3B8">Code review con LLM disparado por webhooks, que publica comentarios inline anclados al diff</text>
+<text x="40" y="183" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#94A3B8">real con sugerencias aplicables, deduplicados entre re-reviews y con fallback de modelos.</text>
+<text x="40" y="210" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#94A3B8">Triage de alertas con IA que convierte ruido en tickets diagnosticados y accionables. Y</text>
+<text x="40" y="237" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#94A3B8">herramientas internas que eliminan el trabajo tedioso que los equipos absorben en silencio.</text>
+    <rect x="0.5" y="0.5" width="999" height="313" rx="16" fill="none" stroke="#1E293B"/>
+  </g>
+</svg>

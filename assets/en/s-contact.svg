@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 347" width="1000" height="347" role="img" aria-label="If it has to be right, not just impressive. If you&#8217;re building something where AI has to be correct &#8212; agents with real permissions, platforms other engineers depend on, or payment systems that cannot go down &#8212; I&#8217;d like to hear about it.">
+  <title>If it has to be right, not just impressive</title>
+  <defs>
+    <linearGradient id="ctBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0A1524"/>
+    </linearGradient>
+    <radialGradient id="ctGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="ctClip"><rect width="1000" height="347" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#ctClip)">
+    <rect width="1000" height="347" fill="url(#ctBg)"/>
+    <ellipse cx="780" cy="-40" rx="420" ry="220" fill="url(#ctGlow)">
+      <animate attributeName="cx" values="780;500;780" dur="19s" repeatCount="indefinite"/>
+    </ellipse>
+<text x="500" y="60" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#38BDF8" text-anchor="middle" letter-spacing="1.8">LET'S TALK</text>
+<text x="500" y="104" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="30" fill="#E2E8F0" font-weight="700" text-anchor="middle">If it has to be right, not just impressive</text>
+<text x="500" y="158" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#94A3B8" text-anchor="middle">If you&#8217;re building something where AI has to be correct &#8212; agents with real</text>
+<text x="500" y="185" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#94A3B8" text-anchor="middle">permissions, platforms other engineers depend on, or payment systems that cannot</text>
+<text x="500" y="212" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#94A3B8" text-anchor="middle">go down &#8212; I&#8217;d like to hear about it.</text>
+<line x1="440" y1="273" x2="560" y2="273" stroke="#334155"/>
+<text x="500" y="307" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#475569" text-anchor="middle">&quot;The model proposes. The code decides. The human approves.&quot;</text>
+    <rect x="0.5" y="0.5" width="999" height="346" rx="16" fill="none" stroke="#1E293B"/>
+  </g>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 805" width="1000" height="805" role="img" aria-label="One tag in, one audited rollout out. A control plane that lets every team version, deploy and observe their services on on-premise Kubernetes and cloud through the same contract &#8212; instead of a pipeline ritual only three people understood.">
+  <title>One tag in, one audited rollout out</title>
+  <defs>
+    <linearGradient id="c1Bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0A1524"/>
+    </linearGradient>
+    <radialGradient id="c1Glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="c1Clip"><rect width="1000" height="805" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#c1Clip)">
+    <rect width="1000" height="805" fill="url(#c1Bg)"/>
+    <ellipse cx="780" cy="-40" rx="420" ry="220" fill="url(#c1Glow)">
+      <animate attributeName="cx" values="780;500;780" dur="19s" repeatCount="indefinite"/>
+    </ellipse>
+<text x="40" y="52" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#22D3EE" letter-spacing="1.6">02 &#183; PLATFORM ENGINEERING</text>
+<text x="40" y="86" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="27" fill="#E2E8F0" font-weight="700">One tag in, one audited rollout out</text>
+<rect x="40" y="126" width="96" height="3" rx="1.5" fill="#22D3EE" opacity="0.85"><animate attributeName="width" values="0;96" dur="1s" fill="freeze"/></rect>
+<text x="40" y="156" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#94A3B8">A control plane that lets every team version, deploy and observe their services on on-premise</text>
+<text x="40" y="183" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#94A3B8">Kubernetes and cloud through the same contract &#8212; instead of a pipeline ritual only three people</text>
+<text x="40" y="210" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#94A3B8">understood.</text>
+<circle cx="45" cy="262" r="4" fill="#22D3EE"/>
+<text x="70" y="267" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#CBD5E1" font-weight="600">A release path teams own themselves.</text>
+<text x="414.1" y="267" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">Branch policy decides which environments a tag is</text>
+<text x="70" y="292" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">eligible for; the platform correlates tag, commit and pipeline so deploying a version never</text>
+<text x="70" y="317" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">rebuilds it.</text>
+<circle cx="45" cy="352" r="4" fill="#22D3EE"/>
+<text x="70" y="357" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#CBD5E1" font-weight="600">Deploys and rollbacks as first-class operations.</text>
+<text x="525.7" y="357" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">One click forward, one click back to the</text>
+<text x="70" y="382" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">last known-good version, with the effective role resolved per project and per environment.</text>
+<circle cx="45" cy="417" r="4" fill="#22D3EE"/>
+<text x="70" y="422" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#CBD5E1" font-weight="600">Real-time truth.</text>
+<text x="228.1" y="422" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">Webhook events &#8212; idempotent and retry-safe &#8212; streamed to the UI over SSE. No</text>
+<text x="70" y="447" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">refreshing to find out whether prod is up.</text>
+<circle cx="45" cy="482" r="4" fill="#22D3EE"/>
+<text x="70" y="487" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#CBD5E1" font-weight="600">Secrets with a paper trail.</text>
+<text x="330.4" y="487" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">Applied in-cluster, versioned, checksummed, masked in the UI,</text>
+<text x="70" y="512" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">audited on change.</text>
+<circle cx="45" cy="547" r="4" fill="#22D3EE"/>
+<text x="70" y="552" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#CBD5E1" font-weight="600">Observability folded back in.</text>
+<text x="349" y="552" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">Cluster metrics, alerts and logs stitched into the same project</text>
+<text x="70" y="577" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">view, so diagnosis doesn&#8217;t start with &quot;which dashboard was it?&quot;</text>
+<circle cx="45" cy="612" r="4" fill="#22D3EE"/>
+<text x="70" y="617" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#CBD5E1" font-weight="600">A CLI teams actually use</text>
+<text x="302.5" y="617" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">&#8212; doctor checks, version registration, CI bootstrap &#8212; distributed</text>
+<text x="70" y="642" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">through the internal package registry.</text>
+<rect x="40" y="683" width="60.5" height="22" rx="11" fill="#111827" stroke="#1E293B"/>
+<text x="53" y="698" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#22D3EE">STACK</text>
+<text x="112.5" y="698" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#64748B">TypeScript &#183; Express + Bun &#183; Prisma/PostgreSQL &#183; Angular + Tailwind &#183; Kubernetes &#183; GitLab CI &#183; Kaniko &#183;</text>
+<text x="112.5" y="719" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#64748B">Harbor &#183; APISIX &#183; Prometheus/Loki/Grafana</text>
+<rect x="40" y="737" width="60.5" height="22" rx="11" fill="#111827" stroke="#1E293B"/>
+<text x="53" y="752" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#22D3EE">SHAPE</text>
+<text x="112.5" y="752" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#64748B">hexagonal modules &#183; 200+ automated tests &#183; architecture verified in CI</text>
+    <rect x="0.5" y="0.5" width="999" height="804" rx="16" fill="none" stroke="#1E293B"/>
+  </g>
+</svg>

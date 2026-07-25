@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 681" width="1000" height="681" role="img" aria-label="The model proposes. The code decides.. I'm a Technical Lead and Senior Software Engineer who spends most of his time on the hardest version of the AI question: not &#8220;can a model do this?&#8221;, but &#8220;can I put this in front of production and sleep at night?&#8221; I build agentic systems that touch real infrastructure &#8212; clusters, gateways, pipelines, money &#8212; with the guardrails, approval gates, audit trails and deterministic cores that make them safe enough to actually ship. Alongside that, I modernize payment platforms and build the internal platforms other engineers deploy through. I lead by building: I write the hard parts, set the architecture, and make the boundaries enforceable so the design survives the team&#8217;s third sprint under pressure.">
+  <title>The model proposes. The code decides.</title>
+  <defs>
+    <linearGradient id="waBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0A1524"/>
+    </linearGradient>
+    <radialGradient id="waGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="waClip"><rect width="1000" height="681" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#waClip)">
+    <rect width="1000" height="681" fill="url(#waBg)"/>
+    <ellipse cx="780" cy="-40" rx="420" ry="220" fill="url(#waGlow)">
+      <animate attributeName="cx" values="780;500;780" dur="19s" repeatCount="indefinite"/>
+    </ellipse>
+<text x="40" y="56" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#38BDF8" letter-spacing="1.6">WHOAMI</text>
+<text x="40" y="96" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="30" fill="#E2E8F0" font-weight="700">The model proposes. The code decides.</text>
+<rect x="40" y="108" width="612.95" height="3" rx="1.5" fill="#38BDF8" opacity="0.85"><animate attributeName="width" values="0;612.95" dur="1.1s" fill="freeze"/></rect>
+<text x="40" y="150" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#94A3B8">I'm a Technical Lead and Senior Software Engineer who spends most of his time on the hardest</text>
+<text x="40" y="177" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#94A3B8">version of the AI question: not &#8220;can a model do this?&#8221;, but &#8220;can I put this in front of</text>
+<text x="40" y="204" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#94A3B8">production and sleep at night?&#8221;</text>
+<text x="40" y="251" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#94A3B8">I build agentic systems that touch real infrastructure &#8212; clusters, gateways, pipelines, money &#8212;</text>
+<text x="40" y="278" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#94A3B8">with the guardrails, approval gates, audit trails and deterministic cores that make them safe</text>
+<text x="40" y="305" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#94A3B8">enough to actually ship. Alongside that, I modernize payment platforms and build the internal</text>
+<text x="40" y="332" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#94A3B8">platforms other engineers deploy through.</text>
+<text x="40" y="379" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#94A3B8">I lead by building: I write the hard parts, set the architecture, and make the boundaries</text>
+<text x="40" y="406" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#94A3B8">enforceable so the design survives the team&#8217;s third sprint under pressure.</text>
+<rect x="40" y="459" width="920" height="188" rx="10" fill="#020617" stroke="#1E293B"/>
+<text x="58" y="491" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#22D3EE">role:     </text>
+<text x="157" y="491" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#94A3B8">Technical Lead &#183; Senior Software Engineer</text>
+<text x="58" y="517" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#22D3EE">focus:    </text>
+<text x="157" y="517" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#94A3B8">AI engineering &#183; platform engineering &#183; payments</text>
+<text x="58" y="543" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#22D3EE">now:      </text>
+<text x="157" y="543" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#94A3B8">WOM Colombia &#8212; payments + internal delivery platform</text>
+<text x="58" y="569" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#22D3EE">before:   </text>
+<text x="157" y="569" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#94A3B8">Mercado Libre &#8212; backend, observability, AI automation</text>
+<text x="58" y="595" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#22D3EE">languages:</text>
+<text x="157" y="595" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#94A3B8">Spanish (native) &#183; Portuguese (advanced) &#183; English</text>
+<text x="58" y="621" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#22D3EE">belief:   </text>
+<text x="157" y="621" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#94A3B8">&quot;the model proposes, the code decides, the human approves&quot;</text>
+    <rect x="0.5" y="0.5" width="999" height="680" rx="16" fill="none" stroke="#1E293B"/>
+  </g>
+</svg>

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" width="1200" height="620" role="img" aria-label="Internal developer platform: from a git tag to a live Kubernetes rollout with real-time status and one-click rollback">
-  <title>Internal Developer Platform — tag to rollout</title>
+  <title>Internal Developer Platform &#8212; tag to rollout</title>
 
   <defs>
     <linearGradient id="pBg" x1="0" y1="0" x2="1" y2="1">
@@ -171,19 +171,27 @@
 
       <g>
         <circle cx="66" cy="480" r="4" fill="#3B82F6" opacity="0"><animate attributeName="opacity" values="0;1;1" keyTimes="0;0.08;1" dur="9s" repeatCount="indefinite"/></circle>
-        <text x="84" y="484" fill="#94A3B8" opacity="0">pipeline accepted &#8212; version pinned<animate attributeName="opacity" values="0;1;1" keyTimes="0;0.08;1" dur="9s" repeatCount="indefinite"/></text>
+        <text x="84" y="484" fill="#94A3B8" opacity="0">pipeline accepted &#8212; version pinned
+        <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.08;1" dur="9s" repeatCount="indefinite"/>
+      </text>
       </g>
       <g>
         <circle cx="66" cy="506" r="4" fill="#22D3EE" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.30;0.34;1" dur="9s" repeatCount="indefinite"/></circle>
-        <text x="84" y="510" fill="#94A3B8" opacity="0">image published &#183; digest verified<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.30;0.34;1" dur="9s" repeatCount="indefinite"/></text>
+        <text x="84" y="510" fill="#94A3B8" opacity="0">image published &#183; digest verified
+        <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.30;0.34;1" dur="9s" repeatCount="indefinite"/>
+      </text>
       </g>
       <g>
         <circle cx="66" cy="532" r="4" fill="#FBBF24" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.58;0.62;1" dur="9s" repeatCount="indefinite"/></circle>
-        <text x="84" y="536" fill="#94A3B8" opacity="0">secrets synced &#183; revision +1<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.58;0.62;1" dur="9s" repeatCount="indefinite"/></text>
+        <text x="84" y="536" fill="#94A3B8" opacity="0">secrets synced &#183; revision +1
+        <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.58;0.62;1" dur="9s" repeatCount="indefinite"/>
+      </text>
       </g>
       <g>
         <circle cx="66" cy="558" r="4" fill="#34D399" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.86;0.90;1" dur="9s" repeatCount="indefinite"/></circle>
-        <text x="84" y="562" fill="#34D399" opacity="0">rollout complete &#183; all replicas ready<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.86;0.90;1" dur="9s" repeatCount="indefinite"/></text>
+        <text x="84" y="562" fill="#34D399" opacity="0">rollout complete &#183; all replicas ready
+        <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.86;0.90;1" dur="9s" repeatCount="indefinite"/>
+      </text>
       </g>
 
       <!-- progress bar -->

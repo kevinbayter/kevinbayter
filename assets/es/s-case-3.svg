@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 746" width="1000" height="746" role="img" aria-label="Donde una alucinaci&#243;n es un problema legal. Una plataforma de declaraci&#243;n de renta donde la IA hace exactamente un trabajo &#8212; leer documentos desordenados &#8212; y est&#225; estructuralmente impedida de hacer el otro. La decisi&#243;n central: el modelo nunca calcula el n&#250;mero.">
+  <title>Donde una alucinaci&#243;n es un problema legal</title>
+  <defs>
+    <linearGradient id="c2Bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0A1524"/>
+    </linearGradient>
+    <radialGradient id="c2Glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="c2Clip"><rect width="1000" height="746" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#c2Clip)">
+    <rect width="1000" height="746" fill="url(#c2Bg)"/>
+    <ellipse cx="780" cy="-40" rx="420" ry="220" fill="url(#c2Glow)">
+      <animate attributeName="cx" values="780;500;780" dur="19s" repeatCount="indefinite"/>
+    </ellipse>
+<text x="40" y="52" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#34D399" letter-spacing="1.6">03 &#183; IA EN DOMINIO REGULADO</text>
+<text x="40" y="86" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="27" fill="#E2E8F0" font-weight="700">Donde una alucinaci&#243;n es un problema legal</text>
+<rect x="40" y="126" width="96" height="3" rx="1.5" fill="#34D399" opacity="0.85"><animate attributeName="width" values="0;96" dur="1s" fill="freeze"/></rect>
+<text x="40" y="156" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#94A3B8">Una plataforma de declaraci&#243;n de renta donde la IA hace exactamente un trabajo &#8212; leer</text>
+<text x="40" y="183" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#94A3B8">documentos desordenados &#8212; y est&#225; estructuralmente impedida de hacer el otro. La decisi&#243;n</text>
+<text x="40" y="210" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#94A3B8">central: el modelo nunca calcula el n&#250;mero.</text>
+<circle cx="45" cy="262" r="4" fill="#34D399"/>
+<text x="70" y="267" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#CBD5E1" font-weight="600">Extracci&#243;n de doble pasada.</text>
+<text x="330.4" y="267" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">Cada documento se lee dos veces, de forma independiente; las</text>
+<text x="70" y="292" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">discrepancias salen primero, con la fuente al lado, para que el usuario las resuelva.</text>
+<circle cx="45" cy="327" r="4" fill="#34D399"/>
+<text x="70" y="332" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#CBD5E1" font-weight="600">La confirmaci&#243;n humana es una compuerta dura.</text>
+<text x="497.8" y="332" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">Ning&#250;n valor extra&#237;do avanza hasta que una</text>
+<text x="70" y="357" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">persona lo confirma.</text>
+<circle cx="45" cy="392" r="4" fill="#34D399"/>
+<text x="70" y="397" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#CBD5E1" font-weight="600">Un n&#250;cleo de c&#225;lculo puro, con cero dependencias.</text>
+<text x="535" y="397" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">Cada regla lleva la cita normativa que la</text>
+<text x="70" y="422" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">respalda, versionada en el repositorio junto al c&#243;digo.</text>
+<circle cx="45" cy="457" r="4" fill="#34D399"/>
+<text x="70" y="462" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#CBD5E1" font-weight="600">Un golden test como contrato.</text>
+<text x="349" y="462" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">Una declaraci&#243;n real reproducida casilla por casilla: si un</text>
+<text x="70" y="487" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">cambio lo rompe, el cambio est&#225; mal &#8212; salvo que exista una regla nueva documentada.</text>
+<circle cx="45" cy="522" r="4" fill="#34D399"/>
+<text x="70" y="527" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#CBD5E1" font-weight="600">Credenciales que no se pueden filtrar porque nunca existen en reposo.</text>
+<text x="721" y="527" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">La automatizaci&#243;n del</text>
+<text x="70" y="552" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">portal corre en un worker aislado sin acceso a la base de datos, sobre sesiones ef&#237;meras</text>
+<text x="70" y="577" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">destruidas en un finally garantizado.</text>
+<circle cx="45" cy="612" r="4" fill="#34D399"/>
+<text x="70" y="617" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#CBD5E1" font-weight="600">Aritm&#233;tica entera de punta a punta.</text>
+<text x="404.8" y="617" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15.5" fill="#94A3B8">Ni un solo float cerca del dinero.</text>
+<rect x="40" y="658" width="60.5" height="22" rx="11" fill="#111827" stroke="#1E293B"/>
+<text x="53" y="673" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#34D399">STACK</text>
+<text x="112.5" y="673" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#64748B">TypeScript &#183; Next.js &#183; Turborepo &#183; Prisma/PostgreSQL &#183; Playwright &#183; adaptador LLM compatible con OpenAI</text>
+<text x="112.5" y="694" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#64748B">(cambiar de proveedor es una variable de entorno) &#183; Vitest</text>
+    <rect x="0.5" y="0.5" width="999" height="745" rx="16" fill="none" stroke="#1E293B"/>
+  </g>
+</svg>
