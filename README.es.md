@@ -47,8 +47,8 @@
 
 <img width="100%" alt="Si tiene que acertar, no solo impresionar" src="assets/es/s-contact.svg"/>
 
-<a href="https://linkedin.com/in/bayterx"><img alt="Conectemos" src="assets/es/btn-connect.svg"/></a>
-<a href="mailto:kevinbayter@bayterx.com"><img alt="Escríbeme" src="assets/es/btn-write.svg"/></a>
+<a href="https://linkedin.com/in/kevin-bayter"><img alt="Conectemos" src="assets/es/btn-connect.svg"/></a>
+<a href="mailto:kevin@bayterx.com"><img alt="Escríbeme" src="assets/es/btn-write.svg"/></a>
 <a href="https://bayterx.com"><img alt="Ver más" src="assets/es/btn-more.svg"/></a>
 
 </div>
