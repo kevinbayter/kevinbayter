@@ -47,8 +47,8 @@
 
 <img width="100%" alt="If it has to be right, not just impressive" src="assets/en/s-contact.svg"/>
 
-<a href="https://linkedin.com/in/kevin-bayter"><img alt="Let's connect" src="assets/en/btn-connect.svg"/></a>
-<a href="mailto:kevin@bayterx.com"><img alt="Write to me" src="assets/en/btn-write.svg"/></a>
+<a href="https://linkedin.com/in/bayterx"><img alt="Let's connect" src="assets/en/btn-connect.svg"/></a>
+<a href="mailto:kevinbayter@bayterx.com"><img alt="Write to me" src="assets/en/btn-write.svg"/></a>
 <a href="https://bayterx.com"><img alt="See more" src="assets/en/btn-more.svg"/></a>
 
 </div>
